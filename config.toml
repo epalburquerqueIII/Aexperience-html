@@ -42,7 +42,7 @@ publishDir = "public"
       url = "#"
     [[menu.footer]]
       weight = 3
-      name = "How it works"
+      name = "Como trabaja"
       url = "#"
     [[menu.footer]]
       weight = 4
