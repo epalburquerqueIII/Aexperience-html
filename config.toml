@@ -50,7 +50,7 @@ publishDir = "public"
       url = "/blog1/"
     [[menu.footer]]
       weight = 5
-      name = "Terms"
+      name = "Terminos"
       url = "#"
 
   [params.slider]
