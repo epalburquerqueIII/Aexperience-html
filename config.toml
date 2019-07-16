@@ -21,11 +21,11 @@ publishDir = "public"
       url = "/blog/"
     [[menu.header]]
       weight = 4
-      name = "Service"
+      name = "Servicios"
       url = "/service/"
     [[menu.header]]
       weight = 5
-      name = "Contact"
+      name = "Contacto"
       url = "/contact/"
     [[menu.header]]
       weight = 5
