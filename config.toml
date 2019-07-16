@@ -13,7 +13,7 @@ publishDir = "public"
 
     [[menu.header]]
       weight = 2
-      name = "Work"
+      name = "Trabajo"
       url = "/work/"
     [[menu.header]]
       weight = 3
