@@ -21,7 +21,7 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Espacios"
-    URL = "blog"
+    URL = "espacios"
     weight = 2
 
     [[menu.nav]]
@@ -152,7 +152,7 @@ description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
 [params.footer]
 enable = true
 contactInfoTitle = "INFO <span>CONTACTO</span>"
-blogTitle = "MI <span>PERFIL</span>"
+espaciosTitle = "MI <span>PERFIL</span>"
 galleryTitle = "Fotos <span>Eventos</span>"
 socialTitle = "REDES <span>SOCIALES</span>"
 
@@ -200,7 +200,7 @@ Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburque
 
 
 #blog 
-[params.blog]
+[params.espacios]
 enable = true
 title = "<span>Reserva</span> de <span>Espacios</span>"
 

@@ -1,7 +1,7 @@
 ---
 title: "Campo de Fútbol"
 date: 2018-12-26T12:28:47+06:00
-image: images/blog/CampoFutbol.jpg
+image: images/espacios/CampoFutbol.jpg
 type: "post"
 ---
 
