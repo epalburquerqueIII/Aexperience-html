@@ -1,18 +1,18 @@
 ---
-title: "Campo de Fútbol"
+title: "Piscina Climatizada"
 date: 2018-12-26T12:28:47+06:00
-image: images/espacios/CampoFutbol.jpg
-type: "post"
+image: images/espacios/piscina.jpg
+type: "espacios"
 ---
 
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action active">
     Horas
   </a>
+  <a href="#" class="list-group-item list-group-item-action">12:00</a>
+  <a href="#" class="list-group-item list-group-item-action">13:00</a>
   <a href="#" class="list-group-item list-group-item-action">14:00</a>
-  <a href="#" class="list-group-item list-group-item-action">14:00</a>
-  <a href="#" class="list-group-item list-group-item-action">14:00</a>
-  <a href="#" class="list-group-item list-group-item-action disabled">14:00</a>
+  <a href="#" class="list-group-item list-group-item-action disabled">21:00</a>
 </div>
 
 <br>

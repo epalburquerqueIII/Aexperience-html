@@ -1,8 +1,8 @@
 ---
-title: "Pabellón"
-date: 2018-12-26T12:30:01+06:00
-image: images/espacios/pabellon.jpg
-type: "post"
+title: "Aula Casa de la Cultura"
+date: 2018-12-26T12:23:10+06:00
+image: images/espacios/cultura.jpg
+type: "espacios"
 ---
 
 <div class="list-group">

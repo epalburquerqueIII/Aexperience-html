@@ -1,9 +1,10 @@
 ---
-title: "Espacio Joven"
-date: 2018-12-12T04:28:21+06:00
-image: images/espacios/joven.jpg
-type: "post"
+title: "Teatro Casa de la Cultura"
+date: 2018-12-26T11:40:41+06:00
+image: "images/espacios/teatro.jpg"
+type: "espacios"
 ---
+
 
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action active">

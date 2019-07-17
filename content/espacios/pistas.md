@@ -1,10 +1,9 @@
 ---
-title: "Teatro Casa de la Cultura"
-date: 2018-12-26T11:40:41+06:00
-image: "images/espacios/teatro.jpg"
-type: "post"
+title: "Pistas de fuera"
+date: 2018-12-26T12:28:47+06:00
+image: images/espacios/pista.jpg
+type: "espacios"
 ---
-
 
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action active">
