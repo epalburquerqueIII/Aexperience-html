@@ -189,8 +189,9 @@ nav {
 nav .block {
   margin-top: -85px;
   background: #fff;
-  padding: 25px 40px;
-  background: rgba(255, 255, 255, 0.89);
+  padding: 0px 40px 15px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.959);
 }
 nav .block .navbar-default {
   border: none;

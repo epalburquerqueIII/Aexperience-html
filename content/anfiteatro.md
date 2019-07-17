@@ -1,7 +1,7 @@
 ---
 title: "Anfiteatro"
 date: 2018-12-26T11:40:41+06:00
-image: "images/blog/cultura2.jpg"
+image: "images/blog/anfiteatro.jpg"
 type: "post"
 ---
 

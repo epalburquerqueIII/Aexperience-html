@@ -1,7 +1,7 @@
 ---
 title: "Pabellón"
 date: 2018-12-26T12:30:01+06:00
-image: images/blog/pistas2.jpg
+image: images/blog/pabellon.jpg
 type: "post"
 ---
 
