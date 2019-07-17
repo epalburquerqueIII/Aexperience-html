@@ -44,6 +44,11 @@ summaryLength = "7"
     URL = "acceso"
     weight = 7
 
+     [[menu.nav]]
+    name = "Blog"
+    URL = "blog"
+    weight = 8
+
 # Global Settings
 [params]
 logo = "images/logoex.png"
@@ -203,6 +208,11 @@ Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburque
 [params.espacios]
 enable = true
 title = "<span>Reserva</span> de <span>Espacios</span>"
+
+[params.blog]
+enable = true
+title = "Get The Latest On What We're doing"
+subtitle = "Catch up with us, anytime and anywhere"
 
 
 
