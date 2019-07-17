@@ -11,38 +11,38 @@ summaryLength = "7"
 	
 	[[menu.nav]]
     name = "Inicio"
-    URL = "inicio"
+    URL = "#inicio"
     weight = 1
 
     [[menu.nav]]
     name = "Mi perfil"
-    URL = "miperfil"
+    URL = "#miperfil"
     weight = 6
 
     [[menu.nav]]
     name = "Espacios"
-    URL = "espacios"
+    URL = "#espacios"
     weight = 2
 
     [[menu.nav]]
     name = "Bonos"
-    URL = "bonos"
+    URL = "#bonos"
     weight = 3
 
     [[menu.nav]]
     name = "Newsletter"
-    URL = "subscribe"
+    URL = "#subscribe"
     weight = 4
 
     [[menu.nav]]
     name = "Contacto"
-    URL = "contacto"
+    URL = "#contacto"
     weight = 5
 
     [[menu.nav]]
-    name = "acceso"
-    URL = "acceso"
-    weight = 7
+    name = "Acceso"
+    URL = "/acceso"
+    weight = 6
 
      [[menu.nav]]
     name = "Blog"

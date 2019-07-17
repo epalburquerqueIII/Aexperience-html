@@ -28,7 +28,12 @@
                               <ul class="nav navbar-nav navbar-right" id="top-nav">
                                 <li><a href="#inicio">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
                                 {{ range $.Site.Menus.nav }}
-                                  <li><a href="#{{ .URL }}">{{ .Name }}</a></li>
+                                   {{ if (eq .Name "Acceso") }}
+                                   <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
+                                      <li><a href="#myModal" data-toggle="modal">Acceso</a></li>
+                                   {{ else }}
+                                      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                                   {{ end }}
                                 {{ end }}
                               </ul>
                             </div><!-- /.navbar-collapse -->

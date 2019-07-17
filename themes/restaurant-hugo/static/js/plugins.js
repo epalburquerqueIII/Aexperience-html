@@ -21,6 +21,9 @@
     }
 }());
 
+var cookie = getCookie("authtoken"); 
+	console.log("Lectura de cookie");
+	$("acceso").value = "Area privada";
 // Place any jQuery/helper plugins in here.
 
 // Place any jQuery/helper plugins in here.

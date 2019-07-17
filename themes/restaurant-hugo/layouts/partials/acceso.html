@@ -1,0 +1,72 @@
+<header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- header Nav Start -->
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+                  <img src="{{ .Site.BaseURL }}img/logo.png" alt="{{ .Site.Title }} Logo">
+                </a>
+              </div>
+  
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
+                  {{ range .Site.Menus.header }}
+                    {{ if (eq .Name "Acceso") }}
+                     <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
+                      <li><a href="#myModal" data-toggle="modal">Login</a></li>
+                    {{ else }}
+                      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  <!-- Modal HTML -->
+  <div id="myModal" class="modal fade">
+      <div class="modal-dialog modal-login">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <div class="avatar"><i class="material-icons">&#xE7FD;</i></div>
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              </div>
+              <div class="modal-body">
+                  <form id="fakeLogin" name="fakeLogin" onsubmit="return DoSubmit();">
+                      <div class="form-group">
+                          <input type="text" class="form-control" name="username" placeholder="username" required="required">
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" name="password" placeholder="password" required="required">
+                      </div>
+                      <div class="form-group">
+                          <input type="submit" class="btn btn-primary btn-block btn-lg" value="Login">
+                      </div>
+          </form>	
+          <form style="display: none;" id="realLogin" name="realLogin">
+            <input class="fullWidth" name="username" type="text" placeholder="username" />
+            <input class="fullWidth" name="password" type="password" placeholder="password" />
+          </form>
+          <form id="restricted" name="restricted" action="{{ .Site.Params.privateURL }}/restricted" method="POST" style="display: none;">
+            <input id="X-CSRF-Token-input" name="X-CSRF-Token" />
+          </form>
+                  <div class="hint-text small"><a href="#">Forgot Your Password?</a></div>
+              </div>
+          </div>
+      </div>
+  </div>    
+  </header><!-- header close -->
