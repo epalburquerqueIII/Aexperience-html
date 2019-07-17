@@ -44,8 +44,6 @@ summaryLength = "7"
     URL = "acceso"
     weight = 7
 
-
-
 # Global Settings
 [params]
 logo = "images/logoex.png"
