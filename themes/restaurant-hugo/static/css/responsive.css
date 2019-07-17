@@ -74,27 +74,27 @@ px      68    160    252    344    436    528    620    712    */
     border-radius: 10px;
   }
   /*--
-    price Start
+    bonos Start
 --*/
-  #price .block p {
+  #bonos .block p {
     padding: 30px 0 0;
   }
-  #price .block .pricing-list {
+  #bonos .block .pricing-list {
     text-align: left;
   }
   /*--
-    contact-us Start
+    contacto Start
 --*/
-  #contact-us {
+  #contacto {
     padding: 60px 0 0;
   }
-  #contact-us .block {
+  #contacto .block {
     text-align: center;
   }
-  #contact-us .block .title {
+  #contacto .block .title {
     text-align: left;
   }
-  #contact-us .block a {
+  #contacto .block a {
     padding: 15px 80px;
     float: inherit;
   }
@@ -203,12 +203,12 @@ px      68    160    252    */
     padding-right: 0px;
   }
   /*--
-    about-us Start
+    miperfil Start
 --*/
-  #about-us {
+  #miperfil {
     padding: 70px 0;
   }
-  #about-us .block p {
+  #miperfil .block p {
     padding: 40px 0px 0px;
   }
   /*--
@@ -270,26 +270,26 @@ px      68    160    252    */
     border-radius: 10px;
   }
   /*--
-    price Start
+    bonos Start
 --*/
-  #price .block p {
+  #bonos .block p {
     padding: 40px 0px 0px;
   }
-  #price .block .pricing-list {
+  #bonos .block .pricing-list {
     text-align: left;
   }
-  #price .block .pricing-list ul li .item {
+  #bonos .block .pricing-list ul li .item {
     float: none;
   }
-  #price .block .pricing-list ul li .item .item-title .border-bottom {
+  #bonos .block .pricing-list ul li .item .item-title .border-bottom {
     display: none;
   }
-  #price .block .pricing-list ul li .item .item-title span {
+  #bonos .block .pricing-list ul li .item .item-title span {
     padding-top: 10px;
     display: block;
     float: none;
   }
-  #price .block .pricing-list .btn {
+  #bonos .block .pricing-list .btn {
     float: inherit;
     padding: 28px 100px;
   }
@@ -322,12 +322,12 @@ px      68    160    252    */
     margin-top: 20px;
   }
   /*--
-    contact-us Start
+    contacto Start
 --*/
-  #contact-us {
+  #contacto {
     padding: 60px 0 0;
   }
-  #contact-us .block a {
+  #contacto .block a {
     padding: 20px 80px;
     width: 100%;
     float: inherit;
