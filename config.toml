@@ -212,7 +212,7 @@ title = "<span>Reserva</span> de <span>Espacios</span>"
 [params.blog]
 enable = true
 title = "Get The Latest On What We're doing"
-subtitle = "Catch up with us, anytime and anywhere"
+subtitle = "Catch up with us, anytime and anywhere" 
 
 
 
