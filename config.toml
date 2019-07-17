@@ -11,38 +11,38 @@ summaryLength = "7"
 	
 	[[menu.nav]]
     name = "Inicio"
-    URL = "hero-area"
+    URL = "#hero-area"
     weight = 1
 
     [[menu.nav]]
     name = "Mi perfil"
-    URL = "about-us"
+    URL = "#about-us"
     weight = 6
 
     [[menu.nav]]
     name = "Espacios"
-    URL = "espacios"
+    URL = "#espacios"
     weight = 2
 
     [[menu.nav]]
     name = "Bonos"
-    URL = "price"
+    URL = "#price"
     weight = 3
 
     [[menu.nav]]
     name = "Newsletter"
-    URL = "subscribe"
+    URL = "#subscribe"
     weight = 4
 
     [[menu.nav]]
     name = "Contacto"
-    URL = "contact-us"
+    URL = "#contact-us"
     weight = 5
 
     [[menu.nav]]
-    name = "acceso"
-    URL = "acceso"
-    weight = 7
+    name = "Acceso"
+    URL = "/acceso"
+    weight = 6
 
 # Global Settings
 [params]
