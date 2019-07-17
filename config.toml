@@ -44,6 +44,11 @@ summaryLength = "7"
     URL = "/acceso"
     weight = 6
 
+     [[menu.nav]]
+    name = "Registro"
+    URL = "/registro"
+    weight = 6
+
 # Global Settings
 [params]
 logo = "images/logoex.png"
