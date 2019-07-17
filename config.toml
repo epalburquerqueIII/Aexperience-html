@@ -1,110 +1,216 @@
-title = "Airspace for Hugo"
-baseURL = "https://examplesite.com"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-theme = "airspace-hugo"
-publishDir = "public"
-# The site's parameters
+title = "Restaurant Theme By Themefisher"
+theme="restaurant-hugo"
+summaryLength = "7"
+
+
+
+# Menu
+[menu]
+	
+	[[menu.nav]]
+    name = "Inicio"
+    URL = "hero-area"
+    weight = 1
+
+    [[menu.nav]]
+    name = "Mi perfil"
+    URL = "about-us"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Espacios"
+    URL = "blog"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Bonos"
+    URL = "price"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Newsletter"
+    URL = "subscribe"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Contacto"
+    URL = "contact-us"
+    weight = 5
+
+    [[menu.nav]]
+    name = "acceso"
+    URL = "acceso"
+    weight = 7
+
+
+
+# Global Settings
 [params]
-  home = "Home"
-  privateURL = "http://192.168.0.87:8088"
- # privateURL = "http://192.168.1.102:8088"
-  
-  [menu]
+logo = "images/logoex.png"
 
-    [[menu.header]]
-      weight = 2
-      name = "Work"
-      url = "/work/"
-    [[menu.header]]
-      weight = 3
-      name = "Blog"
-      url = "/blog/"
-    [[menu.header]]
-      weight = 4
-      name = "Service"
-      url = "/service/"
-    [[menu.header]]
-      weight = 5
-      name = "Contact"
-      url = "/contact/"
-    [[menu.header]]
-      weight = 5
-      name = "Login"
-      url = "/login"
 
-    [[menu.footer]]
-      weight = 1
-      name = "About us"
-      url = "#"
-    [[menu.footer]]
-      weight = 2
-      name = "Contact us"
-      url = "#"
-    [[menu.footer]]
-      weight = 3
-      name = "How it works"
-      url = "#"
-    [[menu.footer]]
-      weight = 4
-      name = "Blog"
-      url = "/blog1/"
-    [[menu.footer]]
-      weight = 5
-      name = "Terms"
-      url = "#"
+[params.heroArea]
+enable = true
+[params.heroImg ] 
+url =  "images/castillo4.jpg" 
 
-  [params.slider]
-    enable = true
-    title = "A digital marketing &amp; design agency"
-    subtitle = "We love the Web and the work we do.<br/>We work closely with our clients to deliver the best possible solutions for their needs"
-    bgImage = "img/slider-bg.jpg"
-    btnText = "Discover Our Projects"
-    url = "#"
 
-  [params.wrapper]
-    enable = true
-    image = "img/wrapper-img.png"
-    title = "About Us"
-    italic = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+#gallery item
 
-  [params.blog]
-    enable = true
-    title = "Get The Latest On What We're doing"
-    subtitle = "Catch up with us, anytime and anywhere"
+[params.gallery]
+enable = true
+title= "Próximos <span>Eventos</span>"
 
-  [params.feature]
-    enable = true
-    title = "We believe in great ideas"
-    bgImage = "img/feature-bg.jpg"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-    [params.feature.button]
-      caption = "View Works"
-      url = "#"
+[[params.gallery.item]]
+img = "images/slider/playmobil.jpg"
 
-  [params.call]
-    enable = true
-    bgImage = "img/call-to-action-bg.jpg"
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
-    [params.call.button]
-      url = "#"
-      text = "tell us your story"
+[[params.gallery.item]]
+img = "images/slider/medieval2.jpg"
 
-  [params.contact]
-    enable = true
-    title = "Drop us a note"
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
-    [params.contact.form]
-      name = "Your name"
-      email = "Your email"
-      subject = "Your subject"
-      message = "Your message"
-      button = "Send message"
-    [params.contact.box]
-      title = "Stop by for a visit"
-      address = "North Main Street, Brooklyn Australia"
-      email = "Email: contact@mail.com"
-      phone = "Phone: +88 01672 506 744"
-    [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
+[[params.gallery.item]]
+img = "images/slider/contempopranea.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/balonmano.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/feriaganao.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/carrera.jpg"
+
+[[params.gallery.item]]
+img = "images/slider/semanasanta.jpg"
+
+
+[params.about]
+enable = true
+title= "Mi <span> Perfil</span>"
+bgImage = "images/cooker-img.png"
+description= "Mis Bonos - Mis Reservas - Mis Datos"
+
+
+
+
+#food Menu
+
+[params.foodMenu]
+enable = true
+title = "Bonos  <span>Piscina</span> y <span>Gym</span>"
+description= "Las instalaciones de la piscina estarán abiertas de lunes a domingo en horario de 12:00 a 21:00 h. y las instalaciones del gym de lunes a viernes de 12:00 a 14:00 y de 17:00 a 22:30 h. y los sábados de 12:00 a 14:00"
+subtitle = "Precios"
+
+[[params.foodMenu.item]]
+title="70 entradas"
+description= ""
+price = "50.00 €"
+
+[[params.foodMenu.item]]
+title="25 entradas"
+description= ""
+price = "25.00 €"
+
+[[params.foodMenu.item]]
+title="10 entradas"
+description= ""
+price = "12.00 €"
+
+[[params.foodMenu.item]]
+title="Diaria Adulto"
+description= ""
+price = "3.00 €"
+
+[[params.foodMenu.item]]
+title="Diaria Menores y Pensionistas"
+description= "Se entiende por menores a las personas que tengan menos de 15 años. Los niños hasta 4 años tendrán entrada gratuita."
+price = "1.50 €"
+
+
+
+#subscription
+
+[params.subscription]
+enable = true
+title= "SUBSCRIBETE a nuestra <span>NEWSLETTER</span>"
+description = "Subscríbete para no perderte nada y estar al día de todo lo que pase en Alburquerque"
+
+#Mailchimp subscription configaration 
+formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+
+#Contact 
+
+[params.contact]
+enable = true
+title= "<span>Contacto </span>"
+subtitle= "Escríbenos"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+
+
+#Footer 
+
+[params.footer]
+enable = true
+contactInfoTitle = "INFO <span>CONTACTO</span>"
+blogTitle = "MI <span>PERFIL</span>"
+galleryTitle = "Fotos <span>Eventos</span>"
+socialTitle = "REDES <span>SOCIALES</span>"
+
+[[params.footer.contactItem]]
+title="Teléfono"
+icon = "fa fa-phone"
+content = "016742 323313"
+
+[[params.footer.contactItem]]
+title="Dirección"
+icon = "fa fa-map-marker"
+content = "2046 Blue Spruce Lane Laurel Canada"
+
+[[params.footer.contactItem]]
+title="Email"
+icon = "fa fa-envelope"
+content = "rest@gmail.com - rest@mail.ru"
+
+[[params.footer.socialLink]]
+icon = "facebook"
+link = "https://fb.com/themefisher"
+
+
+[[params.footer.socialLink]]
+icon = "twitter"
+link = "https://fb.com/themefisher"
+
+[[params.footer.socialLink]]
+icon = "dribbble"
+link = "https://fb.com/themefisher"
+
+[[params.footer.socialLink]]
+icon = "instagram"
+link = "https://fb.com/themefisher"
+
+
+#Footer Copyright
+
+#Footer Copyright Text
+[params.footerCopyright]
+enable = true
+Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburquerque."
+
+
+
+
+#blog 
+[params.blog]
+enable = true
+title = "<span>Reserva</span> de <span>Espacios</span>"
+
+
+
+
+
+
+
+
+
