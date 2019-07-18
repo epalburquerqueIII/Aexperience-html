@@ -2,7 +2,7 @@
 <section id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="block wow fadeInLeft" data-wow-delay="200ms">
                     <h3>{{ with .Site.Params.footer.contactoInfoTitle }} {{ . | safeHTML }} {{ end }}</h3>
                     <div class="info">
@@ -19,36 +19,7 @@
                 </div>
             </div>
             <!-- .col-md-4 close -->
-            <div class="col-md-4">
-                <div class="block wow fadeInLeft" data-wow-delay="700ms">
-                    <h3>{{ with .Site.Params.footer.espaciosTitle }} {{ . | safeHTML }} {{ end }}</h3>
-                    <div class="espacios">
-                        <ul>
-                            <section id="miperfil">
-                                    <div class="row">
-                                        <div class="col-md-10">
-                                            <div class="block">
-                                                <img src="{{ .Site.Params.miperfil.bgImage | absURL }}" alt="Logo" />
-                                                <p class="wow fadeInUp" data-wow-duration="300ms"
-                                                    data-wow-delay="600ms">
-                                                    {{ with .Site.Params.miperfil.description }} {{ . | safeHTML }}
-                                                    {{ end }}
-                                                </p>
-                                                <div>
-                                                    <button type="button"
-                                                        class="consulta btn btn-primary btn-lg btn-block ">Consultar</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                            
-                            </section>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- .col-md-4 close -->
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="block wow fadeInLeft" data-wow-delay="1100ms">
                     <div class="social-media-link">
                         <h3>{{ with .Site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
