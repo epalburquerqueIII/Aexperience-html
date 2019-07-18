@@ -7,20 +7,24 @@
     Common Css
 --*/
 
+/* boton1 */
 .btn.btn-primary.red{
   background-color: #e41f18 !important ;
   color: white !important;
   padding: 20px 50px 20px 50px !important;
+  border-radius: 10px !important;
 
 }
 .btn.btn-primary.red:hover{
   background-color: #e04e48 !important ;
 }
 
+/* posicion boton derecha */
 .btn.btn-primary.derecha{
   float: right;
 }
 
+/* boton2 */
 .btn.btn-primary.consulta{
   background-color: white !important ;
   color: #e41f18!important;
@@ -32,10 +36,13 @@
   background-color: #e41f18 !important ;
 }
 
+
+/* boton3 */
 .btn.btn-primary.reserva{
   background-color: #e41f18 !important ;
   border-color: #e41f18;
   color: white !important;
+  float: right;
 
 }
 .btn.btn-primary.reserva:hover{
@@ -138,6 +145,7 @@ a:active {
   color: #2E2E2E;
   text-transform: uppercase;
   padding: 30px 0px;
+  text-align: center;
 }
 .title span {
   color: #e41f18;
@@ -778,7 +786,9 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     footer Start
 --*/
 #footer {
-  padding: 70px 0px;
+  padding: 20px 0px;
+  padding-top: 50px;
+  background-color: rgb(245, 245, 245);
 }
 #footer .gallery li {
   display: inline-block;
@@ -860,7 +870,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   transition: .3s all;
 }
 #footer .block .social-media-link ul li a:hover {
-  background: #FF4F02;
+  background: #e41f18;
   color: #fff;
 }
 /*--
@@ -879,5 +889,19 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   letter-spacing: 2px;
 }
 #footer-bottom p a {
-  color: #FF4F02;
+  color: #e41f18;
+}
+
+.espacios {
+  float: left;
+}
+
+
+/* style horas espacios */
+.list-group-item.active {
+background-color: #8b8b8b !important;
+border-color: #8b8b8b !important;
+float: center;
+text-align: center;
+font-size: 25px;
 }

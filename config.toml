@@ -45,15 +45,9 @@ summaryLength = "7"
     weight = 6
 
      [[menu.nav]]
-<<<<<<< HEAD
     name = "Registro"
     URL = "/registro"
     weight = 6
-=======
-    name = "Blog"
-    URL = "blog"
-    weight = 8
->>>>>>> 651442efefb264e4599e1ec4cd826bdfd959a987
 
 # Global Settings
 [params]
@@ -169,30 +163,30 @@ socialTitle = "REDES <span>SOCIALES</span>"
 
 [[params.footer.contactoItem]]
 title="Teléfono"
-icon = "fa fa-phone"
-content = "016742 323313"
+icon = "fa fa-mobile"
+content = "924 40 00 01 - 924 40 00 00"
 
 [[params.footer.contactoItem]]
-title="Dirección"
+title="Fax"
+icon = "fa fa-phone"
+content = "924 40 10 47"
+
+[[params.footer.contactoItem]]
+title="Dirección Ayuntamiento de Alburquerque"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content = "Calle San Mateo, 1, 06510 Alburquerque (Badajoz)"
 
 [[params.footer.contactoItem]]
 title="Email"
 icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+content = "webmaster@alburquerque.es"
 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://fb.com/themefisher"
-
+link = "https://www.facebook.com/AgenciaDeDesarrolloLocalDeAlburquerque/?ref=br_rs"
 
 [[params.footer.socialLink]]
 icon = "twitter"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "dribbble"
 link = "https://fb.com/themefisher"
 
 [[params.footer.socialLink]]
