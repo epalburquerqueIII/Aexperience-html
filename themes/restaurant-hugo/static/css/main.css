@@ -13,6 +13,7 @@
   color: white !important;
   padding: 20px 50px 20px 50px !important;
   border-radius: 10px !important;
+  border-color: #e41f18;
 
 }
 .btn.btn-primary.red:hover{
@@ -789,6 +790,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   padding: 20px 0px;
   padding-top: 50px;
   background-color: rgb(245, 245, 245);
+  margin-top:50px;
 }
 #footer .gallery li {
   display: inline-block;
