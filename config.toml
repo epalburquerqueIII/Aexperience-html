@@ -44,16 +44,10 @@ summaryLength = "7"
     URL = "/acceso"
     weight = 6
 
-     [[menu.nav]]
-<<<<<<< HEAD
+    [[menu.nav]]
     name = "Registro"
     URL = "/registro"
     weight = 6
-=======
-    name = "Blog"
-    URL = "blog"
-    weight = 8
->>>>>>> 651442efefb264e4599e1ec4cd826bdfd959a987
 
 # Global Settings
 [params]
