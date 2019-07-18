@@ -789,8 +789,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer {
   padding: 20px 0px;
   padding-top: 50px;
-  background-color: rgb(245, 245, 245);
-  margin-top:50px;
+  background-color: rgb(241, 240, 240);
 }
 #footer .gallery li {
   display: inline-block;
