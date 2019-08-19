@@ -13,39 +13,27 @@
                                   </a>
                               {{"<!-- logo -->" | safeHTML}}
                             <!-- Brand and toggle get grouped for better mobile display -->
-                              <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                              </button>
-                            {{ if .IsHome }}        
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                              <ul class="nav navbar-nav navbar-right" id="top-nav">
-                                <li><a href="#inicio">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarmenu">
+                              <ul class="navbar-nav navbar-right nav" id="top-nav">
+                                <li class="nav-item"><a class="nav-link" href="#inicio">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
                                 {{ range $.Site.Menus.nav }}
                                    {{ if (eq .Name "Acceso") }}
                                    <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
-                                      <li><a href="#myModal" data-toggle="modal">Acceso</a></li>
+                                      <li class="nav-item"><a class="nav-link" href="#myModal" data-toggle="modal">Acceso</a></li>
                                    {{ else }}
-                                   {{ if (eq .Name "Registro") }}
-                                   <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
-                                     <li><a href="#myReg" data-toggle="modal">Registro</a></li>
-                                       {{ else }}
-                                     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                                      {{ end }}
-                                    {{ end }}
+                                     {{ if (eq .Name "Registro") }}
+                                     <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
+                                       <li class="nav-item"><a class="nav-link"  href="#myReg" data-toggle="modal">Registro</a></li>
+                                     {{ else }}
+                                       <li class="nav-item"><a class="nav-link"  href="{{ .URL }}">{{ .Name }}</a></li>
+                                     {{ end }}
+                                   {{ end }}
                                 {{ end }}
                               </ul>
                             </div><!-- /.navbar-collapse -->
-                            {{else}}
-                              <div id="navbarmenu" class="collapse navbar-collapse">
-                                <ul class="navbar-nav navbar-right" id="top-nav">
-                                  <li class="nav-item active"><a data-scroll href="{{ $.Site.BaseURL }}#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
-                                  {{ range $.Site.Menus.nav }}
-                                  <li class="nav-item"><a data-scroll href="{{ $.Site.BaseURL }}#{{ .URL }}">{{ .Name }}</a></li>
-                                  {{ end }}
-                                </ul>
-                              </div><!-- /.navbar-collapse -->
-                            
-                            {{end}}
                           </div><!-- /.container-fluid -->
                         </nav>
                     </div>
