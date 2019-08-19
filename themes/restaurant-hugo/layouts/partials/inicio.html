@@ -1,0 +1,8 @@
+  {{ "<!-- header-img start  -->" | safeHTML }}
+
+
+{{ if .Site.Params.inicio.enable }} 
+<section id="inicio">
+  {{ with .Site.Params.heroImg }}<img class="img-responsive" src="{{ .url | absURL }}" alt="">{{end}}
+</section>
+{{ end }}

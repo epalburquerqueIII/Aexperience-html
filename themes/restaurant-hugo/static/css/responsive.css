@@ -34,67 +34,67 @@ px      68    160    252    344    436    528    620    712    */
     width: 95%;
   }
   /*--
-    blog Start
+    espacios Start
 --*/
-  #blog .block {
+  #espacios .block {
     text-align: center;
   }
-  #blog .block ul {
+  #espacios .block ul {
     padding-bottom: 40px;
   }
-  #blog .block ul li {
+  #espacios .block ul li {
     width: 100%;
   }
-  #blog .block ul li h3 {
+  #espacios .block ul li h3 {
     padding: 0px 0px 30px;
   }
-  #blog .block ul li .blog-img {
+  #espacios .block ul li .espacios-img {
     width: 50%;
   }
-  #blog .block ul li .blog-img img {
+  #espacios .block ul li .espacios-img img {
     width: 100%;
   }
-  #blog .block ul li .blog-img-2 {
+  #espacios .block ul li .espacios-img-2 {
     width: 50%;
   }
-  #blog .block ul li .blog-img-2 img {
+  #espacios .block ul li .espacios-img-2 img {
     width: 100%;
   }
-  #blog .block ul li .content-left {
+  #espacios .block ul li .content-left {
     padding: 40px 20px 0;
   }
-  #blog .block ul li .content-right {
+  #espacios .block ul li .content-right {
     padding: 40px 20px 0;
   }
-  #blog .block .btn-more-info {
+  #espacios .block .btn-more-info {
     float: none;
     margin-top: 30px;
   }
-  #blog .block .btn-more-info:hover {
+  #espacios .block .btn-more-info:hover {
     border-radius: 10px;
   }
   /*--
-    price Start
+    bonos Start
 --*/
-  #price .block p {
+  #bonos .block p {
     padding: 30px 0 0;
   }
-  #price .block .pricing-list {
+  #bonos .block .pricing-list {
     text-align: left;
   }
   /*--
-    contact-us Start
+    contacto Start
 --*/
-  #contact-us {
+  #contacto {
     padding: 60px 0 0;
   }
-  #contact-us .block {
+  #contacto .block {
     text-align: center;
   }
-  #contact-us .block .title {
+  #contacto .block .title {
     text-align: left;
   }
-  #contact-us .block a {
+  #contacto .block a {
     padding: 15px 80px;
     float: inherit;
   }
@@ -174,7 +174,7 @@ px      68    160    252    */
     border: none;
   }
   nav .block .navbar-default .navbar-header .navbar-toggle .icon-bar {
-    background: #e94c3d;
+    background: #e41f18;
   }
   nav .block .navbar-default .navbar-header .navbar-toggle:focus {
     background: none;
@@ -203,12 +203,12 @@ px      68    160    252    */
     padding-right: 0px;
   }
   /*--
-    about-us Start
+    miperfil Start
 --*/
-  #about-us {
+  #miperfil {
     padding: 70px 0;
   }
-  #about-us .block p {
+  #miperfil .block p {
     padding: 40px 0px 0px;
   }
   /*--
@@ -221,75 +221,75 @@ px      68    160    252    */
     font-size: 25px;
   }
   /*--
-    blog Start
+    espacios Start
 --*/
-  #blog .block ul {
+  #espacios .block ul {
     padding-bottom: 30px;
   }
-  #blog .block ul li {
+  #espacios .block ul li {
     float: none;
     width: 100%;
     height: 100%;
   }
-  #blog .block ul li .blog-img {
+  #espacios .block ul li .espacios-img {
     float: none;
     width: 100%;
   }
-  #blog .block ul li .blog-img img {
+  #espacios .block ul li .espacios-img img {
     width: 100%;
   }
-  #blog .block ul li .blog-img-2 {
+  #espacios .block ul li .espacios-img-2 {
     float: none;
     width: 100%;
   }
-  #blog .block ul li .blog-img-2 img {
+  #espacios .block ul li .espacios-img-2 img {
     width: 100%;
   }
-  #blog .block ul li .content-right {
-    float: none;
-    width: 100%;
-    padding: 20px 35px;
-  }
-  #blog .block ul li .content-right:after {
-    display: none;
-  }
-  #blog .block ul li .content-left {
+  #espacios .block ul li .content-right {
     float: none;
     width: 100%;
     padding: 20px 35px;
   }
-  #blog .block ul li .content-left:after {
+  #espacios .block ul li .content-right:after {
     display: none;
   }
-  #blog .block .btn-more-info {
+  #espacios .block ul li .content-left {
+    float: none;
+    width: 100%;
+    padding: 20px 35px;
+  }
+  #espacios .block ul li .content-left:after {
+    display: none;
+  }
+  #espacios .block .btn-more-info {
     float: none;
     margin-top: 30px;
     padding: 28px 85px;
   }
-  #blog .block .btn-more-info:hover {
+  #espacios .block .btn-more-info:hover {
     border-radius: 10px;
   }
   /*--
-    price Start
+    bonos Start
 --*/
-  #price .block p {
+  #bonos .block p {
     padding: 40px 0px 0px;
   }
-  #price .block .pricing-list {
+  #bonos .block .pricing-list {
     text-align: left;
   }
-  #price .block .pricing-list ul li .item {
+  #bonos .block .pricing-list ul li .item {
     float: none;
   }
-  #price .block .pricing-list ul li .item .item-title .border-bottom {
+  #bonos .block .pricing-list ul li .item .item-title .border-bottom {
     display: none;
   }
-  #price .block .pricing-list ul li .item .item-title span {
+  #bonos .block .pricing-list ul li .item .item-title span {
     padding-top: 10px;
     display: block;
     float: none;
   }
-  #price .block .pricing-list .btn {
+  #bonos .block .pricing-list .btn {
     float: inherit;
     padding: 28px 100px;
   }
@@ -322,12 +322,12 @@ px      68    160    252    */
     margin-top: 20px;
   }
   /*--
-    contact-us Start
+    contacto Start
 --*/
-  #contact-us {
+  #contacto {
     padding: 60px 0 0;
   }
-  #contact-us .block a {
+  #contacto .block a {
     padding: 20px 80px;
     width: 100%;
     float: inherit;

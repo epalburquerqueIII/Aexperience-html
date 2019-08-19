@@ -12,7 +12,7 @@ $(document).ready(function(){
  });
 
 	$("#navigation").sticky({
-		topSpacing : 75,
+		topSpacing : 75
 	});
 */
     // animation scroll js
@@ -50,3 +50,5 @@ $(document).ready(function(){
     new WOW().init();
 
 });
+
+
