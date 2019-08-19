@@ -8,16 +8,11 @@ summaryLength = "7"
 
 # Menu
 [menu]
-	
+
 	[[menu.nav]]
     name = "Inicio"
     URL = "hero-area"
     weight = 1
-
-    [[menu.nav]]
-    name = "Mi perfil"
-    URL = "about-us"
-    weight = 6
 
     [[menu.nav]]
     name = "Espacios"
@@ -40,6 +35,11 @@ summaryLength = "7"
     weight = 5
 
     [[menu.nav]]
+    name = "Mi perfil"
+    URL = "about-us"
+    weight = 6
+
+    [[menu.nav]]
     name = "acceso"
     URL = "acceso"
     weight = 7
@@ -51,14 +51,18 @@ logo = "images/logoex.png"
 
 [params.heroArea]
 enable = true
-[params.heroImg ] 
-url =  "images/castillo4.jpg" 
+[params.heroImg ]
+url =  "images/castillo4.jpg"
+
+#Slider
+[params.slider]
+enable = true
 
 
 #gallery item
 
 [params.gallery]
-enable = true
+enable = false
 title= "Próximos <span>Eventos</span>"
 
 [[params.gallery.item]]
@@ -195,9 +199,6 @@ link = "https://fb.com/themefisher"
 [params.footerCopyright]
 enable = true
 Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburquerque."
-
-
-
 
 #blog 
 [params.blog]
