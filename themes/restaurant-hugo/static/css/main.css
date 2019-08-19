@@ -44,9 +44,10 @@
 
 body {
   font-family: myfont;
-  font-size: 14px;
+  font-size: 14px; 
   font-weight: 400;
 }
+
 h1,
 h2,
 h3,
@@ -189,7 +190,7 @@ nav {
 nav .block {
   margin-top: -85px;
   background: #fff;
-  padding: 0px 40px 15px;
+  padding: 0px 40px 0px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.959);
 }
@@ -211,6 +212,7 @@ nav .block .navbar-default .navbar-nav > li > a {
   margin: 0px 15px;
   font-size: 15px;
   text-transform: uppercase;
+  line-height: 20px;
 }
 nav .block .navbar-default .navbar-nav > li > a:before {
   background-color: transparent;
@@ -264,6 +266,13 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   height: 2px;
   background: #e41f18;
 }
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
 /*--
     slider Start
 --*/
