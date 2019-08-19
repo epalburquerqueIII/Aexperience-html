@@ -26,6 +26,29 @@ function DoSubmit(){
     });
     return false;
 }
+function DoSubmitreg(){
+  document.realLogin.username.value = document.fakeLogin.username.value;
+  document.realLogin.password.value = CryptoJS.SHA256(document.fakeLogin.password.value).toString(CryptoJS.enc.Hex);
+  document.realLogin.telefono.value = document.fakeLogin.telefono.value;
+  document.realLogin.nombre.value = document.fakeLogin.nombre.value;
+  $.ajax({
+        'type': 	'POST',
+        'url'	:   '{{ .Site.Params.privateURL }}/registro',
+        'data': 	$('#realLogin').serializeArray(),
+    success: function(data, textStatus, request) {
+                var respuesta = JSON.parse(request.responseText);
+                var token = respuesta.data0;
+                console.log("Success! The token is: ", token);
+                $("#X-CSRF-Token-input").val(respuesta.data2);
+                setCookie("authtoken", request.responseText , 30); 
+                $("#restricted").submit();
+             },
+    error  : function (request, textStatus, errorThrown) {
+                console.log("Error!", request.getResponseHeader('X-Csrf-Token'));
+             }
+    });
+    return false;
+}
 </script>
 <style type="text/css">
 body {
@@ -65,7 +88,7 @@ width: 100px;
 height: 100px;
 border-radius: 50%;
 z-index: 9;
-background: #6e94fb;
+background: red;
 padding: 15px;
 box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
 }

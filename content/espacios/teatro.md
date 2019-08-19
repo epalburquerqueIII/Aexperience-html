@@ -5,7 +5,8 @@ image: "images/espacios/teatro.jpg"
 type: "espacios"
 ---
 
-
+<br>
+<br>
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action active">
     Horas
@@ -20,6 +21,6 @@ type: "espacios"
 <br>
 <br>
 
- <div>
-    <button type="button" class="reserva btn btn-primary btn-lg btn-block ">Reservar</button>
-</div>
+  <div>
+    <button type="button" class="consulta btn btn-primary btn-lg btn-block ">Reservar</button>
+  </div>

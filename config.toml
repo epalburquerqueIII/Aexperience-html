@@ -36,12 +36,17 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Contacto"
-    URL = "#contacto"
+    URL = "/contactos"
     weight = 5
 
     [[menu.nav]]
     name = "Acceso"
     URL = "/acceso"
+    weight = 6
+
+     [[menu.nav]]
+    name = "Registro"
+    URL = "/registro"
     weight = 6
 
 # Global Settings
@@ -138,9 +143,9 @@ description = "Subscríbete para no perderte nada y estar al día de todo lo que
 formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
 formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
-#Contacto 
 
-[params.contacto]
+
+[params.contactos]
 enable = true
 title= "<span>Contacto </span>"
 subtitle= "Escríbenos"
@@ -158,30 +163,30 @@ socialTitle = "REDES <span>SOCIALES</span>"
 
 [[params.footer.contactoItem]]
 title="Teléfono"
-icon = "fa fa-phone"
-content = "016742 323313"
+icon = "fa fa-mobile"
+content = "924 40 00 01 - 924 40 00 00"
 
 [[params.footer.contactoItem]]
-title="Dirección"
+title="Fax"
+icon = "fa fa-phone"
+content = "924 40 10 47"
+
+[[params.footer.contactoItem]]
+title="Dirección Ayuntamiento de Alburquerque"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content = "Calle San Mateo, 1, 06510 Alburquerque (Badajoz)"
 
 [[params.footer.contactoItem]]
 title="Email"
 icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+content = "webmaster@alburquerque.es"
 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://fb.com/themefisher"
-
+link = "https://www.facebook.com/AgenciaDeDesarrolloLocalDeAlburquerque/?ref=br_rs"
 
 [[params.footer.socialLink]]
 icon = "twitter"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "dribbble"
 link = "https://fb.com/themefisher"
 
 [[params.footer.socialLink]]
@@ -203,6 +208,11 @@ Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburque
 [params.espacios]
 enable = true
 title = "<span>Reserva</span> de <span>Espacios</span>"
+
+[params.blog]
+enable = true
+title = "Get The Latest On What We're doing"
+subtitle = "Catch up with us, anytime and anywhere" 
 
 
 

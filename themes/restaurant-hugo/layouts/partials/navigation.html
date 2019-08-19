@@ -25,10 +25,6 @@
                                    <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
                                       <li class="nav-item"><a href="#myModal" data-toggle="modal">Acceso</a></li>
                                    {{ else }}
-<<<<<<< HEAD
-                                      <li class="nav-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
-                                   {{ end }}
-=======
                                    {{ if (eq .Name "Registro") }}
                                    <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
                                      <li><a href="#myReg" data-toggle="modal">Registro</a></li>
@@ -36,7 +32,6 @@
                                      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                                       {{ end }}
                                     {{ end }}
->>>>>>> 9b55f8ec1335c9bfec83f1030ad68dd9590c4b5b
                                 {{ end }}
                               </ul>
                             </div><!-- /.navbar-collapse -->
