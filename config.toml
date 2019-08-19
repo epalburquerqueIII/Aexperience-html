@@ -15,14 +15,11 @@ summaryLength = "7"
     weight = 1
 
     [[menu.nav]]
-<<<<<<< HEAD
-=======
     name = "Mi perfil"
     URL = "#miperfil"
     weight = 6
 
     [[menu.nav]]
->>>>>>> e26429ac0701d9e32b168e297350eaecb268babf
     name = "Espacios"
     URL = "#espacios"
     weight = 2
@@ -43,15 +40,6 @@ summaryLength = "7"
     weight = 5
 
     [[menu.nav]]
-<<<<<<< HEAD
-    name = "Mi perfil"
-    URL = "about-us"
-    weight = 6
-
-    [[menu.nav]]
-    name = "acceso"
-    URL = "acceso"
-=======
     name = "Acceso"
     URL = "/acceso"
     weight = 6
@@ -64,7 +52,6 @@ summaryLength = "7"
      [[menu.nav]]
     name = "Blog"
     URL = "/blog/"
->>>>>>> e26429ac0701d9e32b168e297350eaecb268babf
     weight = 7
 
 # Global Settings
@@ -234,17 +221,10 @@ link = "https://fb.com/themefisher"
 enable = true
 Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburquerque."
 
-<<<<<<< HEAD
-#blog 
-[params.blog]
-enable = true
-title = "<span>Reserva</span> de <span>Espacios</span>"
-=======
 
 
 
 
->>>>>>> e26429ac0701d9e32b168e297350eaecb268babf
 
 
 
