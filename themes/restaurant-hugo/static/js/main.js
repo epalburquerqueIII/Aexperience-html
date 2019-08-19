@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-
+/*
  $("#owl-example").owlCarousel({
     // Most important owl features
     items : 4,
@@ -12,9 +12,9 @@ $(document).ready(function(){
  });
 
 	$("#navigation").sticky({
-		topSpacing : 75,
+		topSpacing : 75
 	});
-
+*/
     // animation scroll js
     var html_body = $('html, body');
     $('nav li a').on('click', function () { //use page-scroll class in any HTML tag for scrolling
@@ -39,12 +39,13 @@ $(document).ready(function(){
             return c / 2 * (-Math.pow(2, -10 * --t) + 2) + b;
         }
     });
-
+/*
      $('#top-nav').onePageNav({
          currentClass: 'active',
          changeHash: true,
          scrollSpeed: 1200
     });
+    */
 //Initiat WOW JS
     new WOW().init();
 

@@ -8,7 +8,7 @@ summaryLength = "7"
 
 # Menu
 [menu]
-	
+
 	[[menu.nav]]
     name = "Inicio"
     URL = "#inicio"
@@ -36,7 +36,7 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Contacto"
-    URL = "#contacto"
+    URL = "/contactos"
     weight = 5
 
     [[menu.nav]]
@@ -49,6 +49,11 @@ summaryLength = "7"
     URL = "/registro"
     weight = 6
 
+     [[menu.nav]]
+    name = "Blog"
+    URL = "/blog/"
+    weight = 7
+
 # Global Settings
 [params]
 logo = "images/logoex.png"
@@ -56,14 +61,18 @@ logo = "images/logoex.png"
 
 [params.inicio]
 enable = true
-[params.heroImg ] 
-url =  "images/castillo4.jpg" 
+[params.heroImg ]
+url =  "images/castillo4.jpg"
+
+#Slider
+[params.slider]
+enable = true
 
 
 #gallery item
 
 [params.gallery]
-enable = true
+enable = false
 title= "Próximos <span>Eventos</span>"
 
 [[params.gallery.item]]
@@ -143,13 +152,24 @@ description = "Subscríbete para no perderte nada y estar al día de todo lo que
 formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
 formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
-#Contacto 
 
-[params.contacto]
+
+[params.contactos]
 enable = true
 title= "<span>Contacto </span>"
 subtitle= "Escríbenos"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+
+
+[params.espacios]
+enable = true
+title = "<span>Reserva</span> de <span>Espacios</span>"
+
+#blog 
+[params.blog]
+enable = true
+title = "Get The Latest On What We're doing"
+subtitle = "Catch up with us, anytime and anywhere" 
 
 
 #Footer 
@@ -201,18 +221,6 @@ link = "https://fb.com/themefisher"
 enable = true
 Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburquerque."
 
-
-
-
-#blog 
-[params.espacios]
-enable = true
-title = "<span>Reserva</span> de <span>Espacios</span>"
-
-[params.blog]
-enable = true
-title = "Get The Latest On What We're doing"
-subtitle = "Catch up with us, anytime and anywhere" 
 
 
 
