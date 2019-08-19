@@ -211,10 +211,6 @@ link = "https://fb.com/themefisher"
 enable = true
 Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburquerque."
 
-#blog 
-[params.blog]
-enable = true
-title = "<span>Reserva</span> de <span>Espacios</span>"
 
 
 
