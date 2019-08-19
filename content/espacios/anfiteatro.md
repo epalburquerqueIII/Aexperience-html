@@ -9,12 +9,24 @@ type: "espacios"
 <br>
 <div class="list-group">
   <a href="#" class="list-group-item list-group-item-action active">
-    Horas
+    Calendario
   </a>
-  <a href="#" class="list-group-item list-group-item-action">14:00</a>
-  <a href="#" class="list-group-item list-group-item-action">14:00</a>
-  <a href="#" class="list-group-item list-group-item-action">14:00</a>
-  <a href="#" class="list-group-item list-group-item-action disabled">14:00</a>
+</div>
+
+<div class="input-group date" data-provide="datepicker">
+    <input type="text" class="form-control">
+    <div class="input-group-addon">
+        <span class="glyphicon glyphicon-th"></span>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="md-form">
+  <input placeholder="Selected date" type="text" id="date-picker-example" class="form-control datepicker">
+  <label for="date-picker-example">Try me...</label>
 </div>
 
 <br>
@@ -24,3 +36,4 @@ type: "espacios"
   <div>
     <button type="button" class="consulta btn btn-primary btn-lg btn-block ">Reservar</button>
   </div>
+
