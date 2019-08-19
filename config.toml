@@ -43,15 +43,6 @@ summaryLength = "7"
     weight = 5
 
     [[menu.nav]]
-<<<<<<< HEAD
-    name = "Mi perfil"
-    URL = "about-us"
-    weight = 6
-
-    [[menu.nav]]
-    name = "acceso"
-    URL = "acceso"
-=======
     name = "Acceso"
     URL = "/acceso"
     weight = 6
@@ -64,7 +55,6 @@ summaryLength = "7"
      [[menu.nav]]
     name = "Blog"
     URL = "/blog/"
->>>>>>> a91fcff9d464adbf289aab941828edabb8ea211b
     weight = 7
 
 # Global Settings
