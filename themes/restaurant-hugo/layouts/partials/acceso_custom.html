@@ -1,0 +1,127 @@
+-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/core-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/sha256-min.js"></script>
+
+<script>
+
+function DoSubmit(){
+  document.realLogin.username.value = document.fakeLogin.username.value;
+  document.realLogin.password.value = CryptoJS.SHA256(document.fakeLogin.password.value).toString(CryptoJS.enc.Hex);
+  $.ajax({
+        'type': 	'POST',
+        'url'	:   '{{ .Site.Params.privateURL }}/acceso',
+        'data': 	$('#realLogin').serializeArray(),
+    success: function(data, textStatus, request) {
+                var respuesta = JSON.parse(request.responseText);
+                var token = respuesta.data0;
+                console.log("Success! The token is: ", token);
+                $("#X-CSRF-Token-input").val(respuesta.data2);
+                setCookie("authtoken", request.responseText , 30); 
+                $("#restricted").submit();
+             },
+    error  : function (request, textStatus, errorThrown) {
+                console.log("Error!", request.getResponseHeader('X-Csrf-Token'));
+             }
+    });
+    return false;
+}
+function DoSubmitreg(){
+  document.realLogin.username.value = document.fakeLogin.username.value;
+  document.realLogin.password.value = CryptoJS.SHA256(document.fakeLogin.password.value).toString(CryptoJS.enc.Hex);
+  document.realLogin.telefono.value = document.fakeLogin.telefono.value;
+  document.realLogin.nombre.value = document.fakeLogin.nombre.value;
+  $.ajax({
+        'type': 	'POST',
+        'url'	:   '{{ .Site.Params.privateURL }}/registro',
+        'data': 	$('#realLogin').serializeArray(),
+    success: function(data, textStatus, request) {
+                var respuesta = JSON.parse(request.responseText);
+                var token = respuesta.data0;
+                console.log("Success! The token is: ", token);
+                $("#X-CSRF-Token-input").val(respuesta.data2);
+                setCookie("authtoken", request.responseText , 30); 
+                $("#restricted").submit();
+             },
+    error  : function (request, textStatus, errorThrown) {
+                console.log("Error!", request.getResponseHeader('X-Csrf-Token'));
+             }
+    });
+    return false;
+}
+</script>
+<style type="text/css">
+body {
+font-family: 'Varela Round', sans-serif;
+}
+.form-control {
+    box-shadow: none;
+    border-color: #ddd;
+}
+.form-control:focus {
+border-color: #6e94fb;
+    box-shadow: 0 0 8px rgba(251,110,157,0.4);
+}
+.modal-login {
+    color: #434343;
+width: 350px;
+}
+.modal-login .modal-content {
+padding: 20px;
+border-radius: 1px;
+border: none;
+    position: relative;
+}
+.modal-login .modal-header {
+border-bottom: none;
+}
+.modal-login h4 {
+text-align: center;
+font-size: 22px;
+    margin-bottom: -10px;
+}
+.modal-login .avatar {
+    color: #fff;
+margin: 0 auto;
+    text-align: center;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+z-index: 9;
+background: red;
+padding: 15px;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.modal-login .avatar i {
+    font-size: 62px;
+}
+.modal-login .form-control, .modal-login .btn {
+min-height: 40px;
+border-radius: 1px; 
+    transition: all 0.5s;
+}    
+.modal-login .hint-text {
+text-align: center;
+padding-top: 10px;
+}
+.modal-login .close {
+    position: absolute;
+top: 15px;
+right: 15px;
+}
+.modal-login .btn {
+background: #6e94fb;
+border: none;
+line-height: normal;
+}
+.modal-login .btn:hover, .modal-login .btn:focus {
+background: #3c8ffb;
+}
+.modal-login .hint-text a {
+color: #999;
+}
+.trigger-btn {
+display: inline-block;
+margin: 100px auto;
+}
+</style>

@@ -11,45 +11,50 @@ summaryLength = "7"
 	
 	[[menu.nav]]
     name = "Inicio"
-    URL = "hero-area"
+    URL = "#inicio"
     weight = 1
 
     [[menu.nav]]
     name = "Mi perfil"
-    URL = "about-us"
+    URL = "#miperfil"
     weight = 6
 
     [[menu.nav]]
     name = "Espacios"
-    URL = "espacios"
+    URL = "#espacios"
     weight = 2
 
     [[menu.nav]]
     name = "Bonos"
-    URL = "price"
+    URL = "#bonos"
     weight = 3
 
     [[menu.nav]]
     name = "Newsletter"
-    URL = "subscribe"
+    URL = "#subscribe"
     weight = 4
 
     [[menu.nav]]
     name = "Contacto"
-    URL = "contact-us"
+    URL = "/contactos"
     weight = 5
 
     [[menu.nav]]
-    name = "acceso"
-    URL = "acceso"
-    weight = 7
+    name = "Acceso"
+    URL = "/acceso"
+    weight = 6
+
+    [[menu.nav]]
+    name = "Registro"
+    URL = "/registro"
+    weight = 6
 
 # Global Settings
 [params]
 logo = "images/logoex.png"
 
 
-[params.heroArea]
+[params.inicio]
 enable = true
 [params.heroImg ] 
 url =  "images/castillo4.jpg" 
@@ -83,7 +88,7 @@ img = "images/slider/carrera.jpg"
 img = "images/slider/semanasanta.jpg"
 
 
-[params.about]
+[params.miperfil]
 enable = true
 title= "Mi <span> Perfil</span>"
 bgImage = "images/cooker-img.png"
@@ -92,38 +97,38 @@ description= "Mis Bonos - Mis Reservas - Mis Datos"
 
 
 
-#food Menu
+#bonos Menu
 
-[params.foodMenu]
+[params.bonos]
 enable = true
 title = "Bonos  <span>Piscina</span> y <span>Gym</span>"
 description= "Las instalaciones de la piscina estarán abiertas de lunes a domingo en horario de 12:00 a 21:00 h. y las instalaciones del gym de lunes a viernes de 12:00 a 14:00 y de 17:00 a 22:30 h. y los sábados de 12:00 a 14:00"
 subtitle = "Precios"
 
-[[params.foodMenu.item]]
+[[params.bonos.item]]
 title="70 entradas"
 description= ""
-price = "50.00 €"
+bonos = "50.00 €"
 
-[[params.foodMenu.item]]
+[[params.bonos.item]]
 title="25 entradas"
 description= ""
-price = "25.00 €"
+bonos = "25.00 €"
 
-[[params.foodMenu.item]]
+[[params.bonos.item]]
 title="10 entradas"
 description= ""
-price = "12.00 €"
+bonos = "12.00 €"
 
-[[params.foodMenu.item]]
+[[params.bonos.item]]
 title="Diaria Adulto"
 description= ""
-price = "3.00 €"
+bonos = "3.00 €"
 
-[[params.foodMenu.item]]
+[[params.bonos.item]]
 title="Diaria Menores y Pensionistas"
 description= "Se entiende por menores a las personas que tengan menos de 15 años. Los niños hasta 4 años tendrán entrada gratuita."
-price = "1.50 €"
+bonos = "1.50 €"
 
 
 
@@ -138,9 +143,9 @@ description = "Subscríbete para no perderte nada y estar al día de todo lo que
 formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
 formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
-#Contact 
 
-[params.contact]
+
+[params.contactos]
 enable = true
 title= "<span>Contacto </span>"
 subtitle= "Escríbenos"
@@ -151,37 +156,37 @@ description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
 
 [params.footer]
 enable = true
-contactInfoTitle = "INFO <span>CONTACTO</span>"
+contactoInfoTitle = "INFO <span>CONTACTO</span>"
 espaciosTitle = "MI <span>PERFIL</span>"
 galleryTitle = "Fotos <span>Eventos</span>"
 socialTitle = "REDES <span>SOCIALES</span>"
 
-[[params.footer.contactItem]]
+[[params.footer.contactoItem]]
 title="Teléfono"
+icon = "fa fa-mobile"
+content = "924 40 00 01 - 924 40 00 00"
+
+[[params.footer.contactoItem]]
+title="Fax"
 icon = "fa fa-phone"
-content = "016742 323313"
+content = "924 40 10 47"
 
-[[params.footer.contactItem]]
-title="Dirección"
+[[params.footer.contactoItem]]
+title="Dirección Ayuntamiento de Alburquerque"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content = "Calle San Mateo, 1, 06510 Alburquerque (Badajoz)"
 
-[[params.footer.contactItem]]
+[[params.footer.contactoItem]]
 title="Email"
 icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+content = "webmaster@alburquerque.es"
 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://fb.com/themefisher"
-
+link = "https://www.facebook.com/AgenciaDeDesarrolloLocalDeAlburquerque/?ref=br_rs"
 
 [[params.footer.socialLink]]
 icon = "twitter"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "dribbble"
 link = "https://fb.com/themefisher"
 
 [[params.footer.socialLink]]
@@ -203,6 +208,11 @@ Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburque
 [params.espacios]
 enable = true
 title = "<span>Reserva</span> de <span>Espacios</span>"
+
+[params.blog]
+enable = true
+title = "Get The Latest On What We're doing"
+subtitle = "Catch up with us, anytime and anywhere" 
 
 
 

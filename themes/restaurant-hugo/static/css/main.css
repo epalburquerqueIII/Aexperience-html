@@ -7,20 +7,25 @@
     Common Css
 --*/
 
+/* boton1 */
 .btn.btn-primary.red{
   background-color: #e41f18 !important ;
   color: white !important;
   padding: 20px 50px 20px 50px !important;
+  border-radius: 10px !important;
+  border-color: #e41f18;
 
 }
 .btn.btn-primary.red:hover{
   background-color: #e04e48 !important ;
 }
 
+/* posicion boton derecha */
 .btn.btn-primary.derecha{
   float: right;
 }
 
+/* boton2 */
 .btn.btn-primary.consulta{
   background-color: white !important ;
   color: #e41f18!important;
@@ -32,10 +37,13 @@
   background-color: #e41f18 !important ;
 }
 
+
+/* boton3 */
 .btn.btn-primary.reserva{
   background-color: #e41f18 !important ;
   border-color: #e41f18;
   color: white !important;
+  float: right;
 
 }
 .btn.btn-primary.reserva:hover{
@@ -44,9 +52,10 @@
 
 body {
   font-family: myfont;
-  font-size: 14px;
+  font-size: 14px; 
   font-weight: 400;
 }
+
 h1,
 h2,
 h3,
@@ -138,6 +147,7 @@ a:active {
   color: #2E2E2E;
   text-transform: uppercase;
   padding: 30px 0px;
+  text-align: center;
 }
 .title span {
   color: #e41f18;
@@ -164,10 +174,10 @@ a:active {
 /*--
     header-img start Start
 --*/
-#hero-area {
+#inicio {
   position: relative;
 }
-#hero-area:before {
+#inicio:before {
   content: "";
   position: absolute;
   left: 0;
@@ -189,7 +199,7 @@ nav {
 nav .block {
   margin-top: -85px;
   background: #fff;
-  padding: 0px 40px 15px;
+  padding: 0px 40px 0px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.959);
 }
@@ -211,6 +221,7 @@ nav .block .navbar-default .navbar-nav > li > a {
   margin: 0px 15px;
   font-size: 15px;
   text-transform: uppercase;
+  line-height: 20px;
 }
 nav .block .navbar-default .navbar-nav > li > a:before {
   background-color: transparent;
@@ -264,6 +275,13 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   height: 2px;
   background: #e41f18;
 }
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
 /*--
     slider Start
 --*/
@@ -305,16 +323,16 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   color: #AA9D84;
 }
 /*--
-    about-us Start
+    miperfil Start
 --*/
-#about-us {
+#miperfil {
   padding: 100px 0px;
   background: #F6F6F6;
 }
-#about-us .block {
+#miperfil .block {
   text-align: center;
 }
-#about-us .block p {
+#miperfil .block p {
   color: #959595;
   font-size: 16px;
   line-height: 26px;
@@ -507,38 +525,38 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 
 
 /*--
-    price Start
+    bonos Start
 --*/
-#price {
+#bonos {
   padding: 70px 0px;
 }
-#price .block > p {
+#bonos .block > p {
   color: #9D9D9D;
   font-size: 16px;
   line-height: 26px;
   padding: 40px 133px 0;
   text-align: center;
 }
-#price .block .pricing-list {
+#bonos .block .pricing-list {
   padding-top: 85px;
 }
-#price .block .pricing-list ul {
+#bonos .block .pricing-list ul {
   padding: 0 0 30px;
   margin: 0;
 }
-#price .block .pricing-list ul li {
+#bonos .block .pricing-list ul li {
   padding: 21px 0px;
 }
-#price .block .pricing-list ul li .item .item-title {
+#bonos .block .pricing-list ul li .item .item-title {
   position: relative;
 }
-#price .block .pricing-list ul li .item .item-title h2 {
+#bonos .block .pricing-list ul li .item .item-title h2 {
   display: inline-block;
   position: relative;
   z-index: 99;
   background: #fff;
 }
-#price .block .pricing-list ul li .item .item-title .border-bottom {
+#bonos .block .pricing-list ul li .item .item-title .border-bottom {
   position: absolute;
   top: 0;
   width: 100%;
@@ -546,15 +564,15 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   border: 1px dotted #C9C9C9;
   margin-top: 20px;
 }
-#price .block .pricing-list ul li .item .item-title span {
+#bonos .block .pricing-list ul li .item .item-title span {
   float: right;
   color: #938463;
 }
-#price .block .pricing-list ul li .item p {
+#bonos .block .pricing-list ul li .item p {
   padding: 12px 0 0px;
   color: #949494;
 }
-#price .block .pricing-list .btn {
+#bonos .block .pricing-list .btn {
   padding: 28px 105px;
   border-radius: 0px;
   background: none;
@@ -567,7 +585,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   -o-transition: .3s all;
   transition: .3s all;
 }
-#price .block .pricing-list .btn:hover {
+#bonos .block .pricing-list .btn:hover {
   background: #e41f18;
   color: #fff;
 }
@@ -659,7 +677,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   background: #000000;
 } */
 
-#about-us {
+#miperfil {
   padding: 0px;
   background: rgb(255, 255, 255);
 }
@@ -726,18 +744,18 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   background: #69a8a1;
 }
 /*--
-    contact-us Start
+    contacto Start
 --*/
-#contact-us {
+#contacto {
   padding: 70px 0px;
 }
-#contact-us .block .title {
+#contacto .block .title {
   padding: 20px 0;
 }
-#contact-us .block form {
+#contacto .block form {
   padding-bottom: 20px;
 }
-#contact-us .block form input {
+#contacto .block form input {
   height: 48px;
   border-radius: 0px;
   box-shadow: none;
@@ -745,10 +763,10 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   -o-transition: .3s all;
   transition: .3s all;
 }
-#contact-us .block form input:focus {
+#contacto .block form input:focus {
   border: 1px solid #7EC3BB;
 }
-#contact-us .block form textarea {
+#contacto .block form textarea {
   height: 140px;
   border-radius: 0px;
   box-shadow: none;
@@ -756,10 +774,10 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   -o-transition: .3s all;
   transition: .3s all;
 }
-#contact-us .block form textarea:focus {
+#contacto .block form textarea:focus {
   border: 1px solid #7EC3BB;
 }
-#contact-us .block a {
+#contacto .block a {
   background: #e41f18;
   float: right;
   color: #fff;
@@ -778,7 +796,9 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     footer Start
 --*/
 #footer {
-  padding: 70px 0px;
+  padding: 20px 0px;
+  padding-top: 50px;
+  background-color: rgb(241, 240, 240);
 }
 #footer .gallery li {
   display: inline-block;
@@ -860,7 +880,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   transition: .3s all;
 }
 #footer .block .social-media-link ul li a:hover {
-  background: #FF4F02;
+  background: #e41f18;
   color: #fff;
 }
 /*--
@@ -879,5 +899,19 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   letter-spacing: 2px;
 }
 #footer-bottom p a {
-  color: #FF4F02;
+  color: #e41f18;
+}
+
+.espacios {
+  float: left;
+}
+
+
+/* style horas espacios */
+.list-group-item.active {
+background-color: #8b8b8b !important;
+border-color: #8b8b8b !important;
+float: center;
+text-align: center;
+font-size: 25px;
 }
