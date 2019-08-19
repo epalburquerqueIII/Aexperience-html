@@ -49,6 +49,11 @@ summaryLength = "7"
     URL = "/registro"
     weight = 6
 
+     [[menu.nav]]
+    name = "Blog"
+    URL = "/blog/"
+    weight = 7
+
 # Global Settings
 [params]
 logo = "images/logoex.png"
@@ -152,6 +157,17 @@ subtitle= "Escríbenos"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
 
 
+[params.espacios]
+enable = true
+title = "<span>Reserva</span> de <span>Espacios</span>"
+
+#blog 
+[params.blog]
+enable = true
+title = "Get The Latest On What We're doing"
+subtitle = "Catch up with us, anytime and anywhere" 
+
+
 #Footer 
 
 [params.footer]
@@ -204,15 +220,7 @@ Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburque
 
 
 
-#blog 
-[params.espacios]
-enable = true
-title = "<span>Reserva</span> de <span>Espacios</span>"
 
-[params.blog]
-enable = true
-title = "Get The Latest On What We're doing"
-subtitle = "Catch up with us, anytime and anywhere" 
 
 
 
