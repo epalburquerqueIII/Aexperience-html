@@ -1,4 +1,5 @@
 {{ if .Site.Params.espacios.enable}}
+
     <section id="espacios">
         <div class="container">
             <div class="row">
@@ -9,7 +10,7 @@
                             {{ range where .Data.Pages "Type" "post" }}
                             <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
                                 <div class="espacios-img">
-                                    {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-responsive">{{ end }}
+                                    {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-fluid">{{ end }}
                                 </div>
                                 <div class="content-right">
                                     <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>

@@ -16,7 +16,7 @@
 				<div class="col-md-6">
 					<article class="blog-post">
 						{{ with .Params.image }}
-						<img src="{{ . | absURL }}" class="img-responsive" alt="post-thumb"> {{ end }}
+						<img src="{{ . | absURL }}" class="img-fluid" alt="post-thumb"> {{ end }}
 						<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
 						<p>
 							{{ .Summary }}
