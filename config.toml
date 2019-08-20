@@ -150,7 +150,7 @@ formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
 [params.contactos]
 enable = true
-title= "<span>Contacto </span>"
+title= "<span>Contactos </span>"
 subtitle= "Escríbenos"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
 

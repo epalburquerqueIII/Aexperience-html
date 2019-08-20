@@ -4,6 +4,9 @@
 	        <div class="row">
 	            <div class="col-md-12">
 	                <div class="block">
+							<div class="espacios-img">
+                                    {{ with .Params.image }}<img src="{{ . | absURL }}" alt="post-image" class="img-fluid">{{ end }}
+                                </div>
 	                    <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ with .Site.Params.contactos.title }} {{ . | safeHTML }} {{ end }}</h1>
 	                    <h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">{{ with .Site.Params.contactos.subtitle }} {{ . }} {{ end }}</h3>
 	                    <form>
@@ -17,12 +20,11 @@
 	                            <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
 	                        </div>
 	                    </form>
-	                    <a class="red derecha btn btn-primary wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" href="#" role="button">Enviar Mensaje</a>
+						<a class="red derecha btn btn-primary wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" href="#" role="button">Enviar Mensaje</a>
+						</body>
 	                </div>
 				</div><!-- .col-md-12 close -->
 			</div><!-- .row close -->
-			<br>
-			<br>
 	    </div><!-- .container close -->
 	</section><!-- #contact-us close -->
 {{end}}
