@@ -4,6 +4,7 @@ date: 2019-05-14T14:46:10+06:00
 description: "This is meta description"
 type: "eventos"
 image: "images/eventos-post/semanasanta.jpg"
+imageslide: "images/eventos-post/semanasanta.jpg"
 categories:
 tags:
   - "Philosophy"
