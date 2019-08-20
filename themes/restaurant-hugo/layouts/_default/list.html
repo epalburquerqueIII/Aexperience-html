@@ -10,7 +10,8 @@
 	{{ partial "global-header.html" . }}
 
 	
-
+	<h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ with .Site.Params.blog.title }} {{ . | safeHTML }} {{ end }}</h1>
+	<h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">{{ with .Site.Params.blog.subtitle }} {{ . }} {{ end }}</h3>
 	<section class="blog section">
 		<div class="container">
 			<div class="row">
