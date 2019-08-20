@@ -35,7 +35,7 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Acceso"
-    URL = "#Acceso"
+    URL = "#acceso"
     weight = 6
 
     [[menu.nav]]
@@ -45,7 +45,7 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Registro"
-    URL = "#Registro"
+    URL = "#registro"
     weight = 8
 
      [[menu.nav]]
