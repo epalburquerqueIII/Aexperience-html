@@ -3,12 +3,14 @@ title: "IV Open Balonmano Playa 2019"
 date: 2019-05-14T14:46:10+06:00
 description: "This is meta description"
 type: "eventos"
+<<<<<<< HEAD:content/eventos/BM-Playa.md
 image: "images/eventos-post/bmplaya.jpg"
 imageslide: "images/eventos-post/bmplaya.jpg"
+=======
+image: "images/eventos/bmplaya.jpg"
+>>>>>>> 7b747c664e9faaba02a96a5c1ee390b97dee9a2e:content/Organize-Your-Life.md
 categories:
 tags:
-  - "Photos"
-  - "Finance"
 ---
 
 
@@ -40,7 +42,7 @@ labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio
 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
 
 
-![](../images/post-img.jpg)
+![](images/bmp2.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex

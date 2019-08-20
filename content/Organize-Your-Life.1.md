@@ -3,12 +3,14 @@ title: "Semana Santa 2019"
 date: 2019-05-14T14:46:10+06:00
 description: "This is meta description"
 type: "eventos"
+<<<<<<< HEAD:content/eventos/Semana-Santa.md
 image: "images/eventos-post/semanasanta.jpg"
 imageslide: "images/eventos-post/semanasanta.jpg"
+=======
+image: "images/eventos/semanasanta.jpg"
+>>>>>>> 7b747c664e9faaba02a96a5c1ee390b97dee9a2e:content/Organize-Your-Life.1.md
 categories:
 tags:
-  - "Philosophy"
-  - "Photos"
 ---
 
 

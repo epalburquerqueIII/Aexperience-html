@@ -5,7 +5,7 @@ image: images/espacios/pabellon.jpg
 type: "espacios"
 ---
 
-<b>Horario:</b> 
+<b>Horario:</b>
 <br>
 <b>Dirección:</b> Calle Santiago, 0, 06510 Alburquerque, Badajoz
 <br>

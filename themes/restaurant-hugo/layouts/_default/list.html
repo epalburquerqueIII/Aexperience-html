@@ -4,24 +4,21 @@
 	{{ partial "head.html" . }}
 </head>
 <body>
-
-	{{ partial "header.html" . }}
-
 	{{ partial "global-header.html" . }}
-	
+			<h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ with .Site.Params.blog.title }} {{ . | safeHTML }} {{ end }}</h1>
+			<h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">{{ with .Site.Params.blog.subtitle }} {{ . }} {{ end }}</h3>
 	<section class="blog section">
 		<div class="container">
 			<div class="row">
 				{{ range (.Paginator 6).Pages }}
 				<div class="col-md-6">
 					<article class="blog-post">
-						{{ with .Params.image }}
-						<img src="{{ . | absURL }}" class="img-fluid" alt="post-thumb"> {{ end }}
+						<a href="{{ .Permalink }}">{{ with .Params.image }}<img src="{{ . | absURL }}" class="img-fluid" alt="post-thumb"></a> {{ end }}
 						<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
 						<p>
 							{{ .Summary }}
 						</p>
-						<a href="{{ .Permalink }}" class="btn btn-main">Read More</a>
+						<a href="{{ .Permalink }}" class="btn btn-main">Leer mas </a>
 					</article>
 				</div>
 				{{ end }}

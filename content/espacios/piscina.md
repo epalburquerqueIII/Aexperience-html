@@ -5,9 +5,8 @@ image: images/espacios/piscina.jpg
 type: "espacios"
 ---
 
-
-<b>Horario Verano:</b> De lunes a domingo 12:00 - 21:00
+<b>Horario:</b>
 <br>
-<b>Dirección:</b> Ctra. Valencia de Alcántara  -  Badajoz Km 35
+<b>Dirección:</b> Ctra. Valencia de Alcántara - Badajoz, Km 31, 06510 Alburquerque, Badajoz
 <br>
 <b>Teléfono:</b> 924 40 05 12

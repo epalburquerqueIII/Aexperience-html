@@ -1,13 +1,16 @@
 ---
-title: "XIV Media Maratón 2019"
+title: "Festival Medieval 2019"
 date: 2019-05-14T14:46:10+06:00
 description: "This is meta description"
 type: "eventos"
-image: "images/eventos-post/mediamaraton.jpg"
-imageslide: "images/eventos-post/mediamaraton.jpg"
+<<<<<<< HEAD:content/eventos/Medieval.md
+image: "images/eventos-post/medieval.jpg"
+imageslide: "images/eventos-post/medieval.jpg"
+=======
+image: "images/eventos/medieval.jpg"
+>>>>>>> 7b747c664e9faaba02a96a5c1ee390b97dee9a2e:content/Organize-Your-Life.3.md
 categories:
 tags:
-  - "Fashion"
 ---
 
 

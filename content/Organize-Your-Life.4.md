@@ -1,14 +1,16 @@
 ---
-title: "Festival Medieval 2019"
+title: "Feria ganadera 2019"
 date: 2019-05-14T14:46:10+06:00
 description: "This is meta description"
 type: "eventos"
-image: "images/eventos-post/medieval.jpg"
-imageslide: "images/eventos-post/medieval.jpg"
+<<<<<<< HEAD:content/eventos/Feria-Ganado.md
+image: "images/eventos-post/feriaganado.jpg"
+imageslide: "images/eventos-post/feriaganado.jpg"
+=======
+image: "images/eventos/feriaganado.jpg"
+>>>>>>> 7b747c664e9faaba02a96a5c1ee390b97dee9a2e:content/Organize-Your-Life.4.md
 categories:
 tags:
-  - "Photos"
-  - "Article"
 ---
 
 

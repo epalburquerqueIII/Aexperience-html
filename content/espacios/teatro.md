@@ -5,7 +5,8 @@ image: "images/espacios/teatro.jpg"
 type: "espacios"
 ---
 
-<b>Horario:</b> De lunes a viernes 10:00 - 14:00, 17:00 - 21:00
+
+<b>Horario:</b>
 <br>
 <b>Dirección:</b> Avda. de Extremadura s/n 06510 Alburquerque, Badajoz
 <br>

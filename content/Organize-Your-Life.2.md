@@ -1,14 +1,16 @@
 ---
-title: "Feria ganadera 2019"
+title: "XIV Media Maratón 2019"
 date: 2019-05-14T14:46:10+06:00
 description: "This is meta description"
 type: "eventos"
-image: "images/eventos-post/feriaganado.jpg"
-imageslide: "images/eventos-post/feriaganado.jpg"
+<<<<<<< HEAD:content/eventos/Media-Maraton.md
+image: "images/eventos-post/mediamaraton.jpg"
+imageslide: "images/eventos-post/mediamaraton.jpg"
+=======
+image: "images/eventos/mediamaraton.jpg"
+>>>>>>> 7b747c664e9faaba02a96a5c1ee390b97dee9a2e:content/Organize-Your-Life.2.md
 categories:
 tags:
-  - "Fashion"
-  - "Nature"
 ---
 
 
