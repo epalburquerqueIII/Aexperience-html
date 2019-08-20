@@ -5,7 +5,6 @@ description: "This is meta description"
 type: "eventos"
 image: "images/eventos-post/feriaganado.jpg"
 categories:
-  - "Nature"
 tags:
   - "Fashion"
   - "Nature"

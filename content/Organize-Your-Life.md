@@ -5,7 +5,6 @@ description: "This is meta description"
 type: "eventos"
 image: "images/eventos-post/bmplaya.jpg"
 categories:
-  - "Valuable Idea"
 tags:
   - "Photos"
   - "Finance"

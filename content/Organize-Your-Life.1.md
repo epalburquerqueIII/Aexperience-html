@@ -5,7 +5,6 @@ description: "This is meta description"
 type: "eventos"
 image: "images/eventos-post/semanasanta.jpg"
 categories:
-  - "Philosophy"
 tags:
   - "Philosophy"
   - "Photos"

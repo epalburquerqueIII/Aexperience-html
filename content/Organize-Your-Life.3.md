@@ -5,7 +5,6 @@ description: "This is meta description"
 type: "eventos"
 image: "images/eventos-post/medieval.jpg"
 categories:
-  - "Article"
 tags:
   - "Photos"
   - "Article"

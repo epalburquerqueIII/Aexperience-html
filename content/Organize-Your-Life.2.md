@@ -5,7 +5,6 @@ description: "This is meta description"
 type: "eventos"
 image: "images/eventos-post/mediamaraton.jpg"
 categories:
-  - "Fashion"
 tags:
   - "Fashion"
 ---
