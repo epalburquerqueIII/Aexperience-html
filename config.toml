@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
-title = "AExperience"
 languageCode = "es"
+title = "AExperience"
 theme="restaurant-hugo"
 summaryLength = "7"
 
@@ -35,7 +35,7 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Acceso"
-    URL = "/acceso"
+    URL = "#acceso"
     weight = 6
 
     [[menu.nav]]
@@ -45,10 +45,10 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Registro"
-    URL = "/registro"
+    URL = "#registro"
     weight = 8
 
-    [[menu.nav]]
+     [[menu.nav]]
     name = "Blog"
     URL = "/blog/"
     weight = 9
@@ -162,8 +162,13 @@ title = "<span>Reserva</span> de <span>Espacios</span>"
 #blog
 [params.blog]
 enable = true
+<<<<<<< HEAD
 title= "<span>Blog </span>"
 subtitle = "Últimas Noticias"
+=======
+title = "Get The Latest On What We're doing"
+subtitle = "Catch up with us, anytime and anywhere"
+>>>>>>> dbc936f8c1fb06054a7de5bf9b7b6fa20f563678
 
 
 #Footer
@@ -178,7 +183,7 @@ socialTitle = "REDES <span>SOCIALES</span>"
 [[params.footer.contactoItem]]
 title="Teléfono"
 icon = "fa fa-mobile"
-content = "924 40 00 00 - 924 40 00 01"
+content = "924 40 00 01 - 924 40 00 00"
 
 [[params.footer.contactoItem]]
 title="Fax"
@@ -188,7 +193,7 @@ content = "924 40 10 47"
 [[params.footer.contactoItem]]
 title="Dirección Ayuntamiento de Alburquerque"
 icon = "fa fa-map-marker"
-content = "Calle San Mateo, 1; 06510, Alburquerque (Badajoz)"
+content = "Calle San Mateo, 1, 06510 Alburquerque (Badajoz)"
 
 [[params.footer.contactoItem]]
 title="Email"
