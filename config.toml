@@ -162,13 +162,8 @@ title = "<span>Reserva</span> de <span>Espacios</span>"
 #blog
 [params.blog]
 enable = true
-<<<<<<< HEAD
 title= "<span>Blog </span>"
 subtitle = "Últimas Noticias"
-=======
-title = "Get The Latest On What We're doing"
-subtitle = "Catch up with us, anytime and anywhere"
->>>>>>> dbc936f8c1fb06054a7de5bf9b7b6fa20f563678
 
 
 #Footer
