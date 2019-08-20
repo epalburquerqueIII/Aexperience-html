@@ -341,6 +341,12 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   padding: 10px 15px;
 }
 
+nav.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 75px;
+}
+
 /*--
     slider Start
 --*/
