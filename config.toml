@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
-languageCode = "es"
 title = "AExperience"
+languageCode = "es"
 theme="restaurant-hugo"
 summaryLength = "7"
 
