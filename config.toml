@@ -1,6 +1,11 @@
 baseURL = "http://example.org/"
+<<<<<<< HEAD
 languageCode = "es"
 title = "AExperience"
+=======
+title = "AExperience"
+languageCode = "es"
+>>>>>>> f63998999460aaa96a0db44eab236225dbf8baf1
 theme="restaurant-hugo"
 summaryLength = "7"
 
