@@ -1,5 +1,5 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
+languageCode = "es"
 title = "Restaurant Theme By Themefisher"
 theme="restaurant-hugo"
 summaryLength = "7"
