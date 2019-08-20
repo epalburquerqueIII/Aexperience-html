@@ -185,12 +185,12 @@ title="Fax"
 icon = "fa fa-phone"
 content = "924 40 10 47"
 
-[[params.footer.contactoItem]]
+[[params.footer.contacto2Item]]
 title="Dirección Ayuntamiento de Alburquerque"
 icon = "fa fa-map-marker"
 content = "Calle San Mateo, 1, 06510 Alburquerque (Badajoz)"
 
-[[params.footer.contactoItem]]
+[[params.footer.contacto2Item]]
 title="Email"
 icon = "fa fa-envelope"
 content = "webmaster@alburquerque.es"
