@@ -1,9 +1,8 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Restaurant Theme By Themefisher"
+title = "AExperience"
 theme="restaurant-hugo"
 summaryLength = "7"
-
 
 
 # Menu
@@ -13,11 +12,6 @@ summaryLength = "7"
     name = "Inicio"
     URL = "#inicio"
     weight = 1
-
-    [[menu.nav]]
-    name = "Mi perfil"
-    URL = "#miperfil"
-    weight = 6
 
     [[menu.nav]]
     name = "Espacios"
@@ -45,14 +39,19 @@ summaryLength = "7"
     weight = 6
 
     [[menu.nav]]
+    name = "Mi perfil"
+    URL = "#miperfil"
+    weight = 7
+
+    [[menu.nav]]
     name = "Registro"
     URL = "/registro"
-    weight = 6
+    weight = 8
 
      [[menu.nav]]
     name = "Blog"
     URL = "/blog/"
-    weight = 7
+    weight = 9
 
 # Global Settings
 [params]
@@ -96,14 +95,11 @@ img = "images/slider/carrera.jpg"
 [[params.gallery.item]]
 img = "images/slider/semanasanta.jpg"
 
-
 [params.miperfil]
 enable = true
 title= "Mi <span> Perfil</span>"
 bgImage = "images/cooker-img.png"
 description= "Mis Bonos - Mis Reservas - Mis Datos"
-
-
 
 
 #bonos Menu
@@ -140,7 +136,6 @@ description= "Se entiende por menores a las personas que tengan menos de 15 año
 bonos = "1.50 €"
 
 
-
 #subscription
 
 [params.subscription]
@@ -148,10 +143,9 @@ enable = true
 title= "SUBSCRIBETE a nuestra <span>NEWSLETTER</span>"
 description = "Subscríbete para no perderte nada y estar al día de todo lo que pase en Alburquerque"
 
-#Mailchimp subscription configaration 
+#Mailchimp subscription configaration
 formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
 formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
-
 
 
 [params.contactos]
@@ -165,14 +159,14 @@ description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do e
 enable = true
 title = "<span>Reserva</span> de <span>Espacios</span>"
 
-#blog 
+#blog
 [params.blog]
 enable = true
 title = "Get The Latest On What We're doing"
-subtitle = "Catch up with us, anytime and anywhere" 
+subtitle = "Catch up with us, anytime and anywhere"
 
 
-#Footer 
+#Footer
 
 [params.footer]
 enable = true
