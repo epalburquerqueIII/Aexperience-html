@@ -10,4 +10,4 @@ type: "espacios"
 <br>
 <b>Dirección:</b> Plaza Moreno Nieto, 22, 06510 Alburquerque, Badajoz
 <br>
-<b>Teléfono:</b> 
+<b>Teléfono:</b>

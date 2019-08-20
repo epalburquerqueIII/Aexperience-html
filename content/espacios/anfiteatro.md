@@ -5,7 +5,7 @@ image: "images/espacios/anfiteatro.jpg"
 type: "espacios"
 ---
 
-<b>Horario:</b> 
+<b>Horario:</b>
 <br>
 <b>Dirección:</b> Avda. de Extremadura s/n 06510 Alburquerque, Badajoz
 <br>
