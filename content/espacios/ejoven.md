@@ -6,7 +6,7 @@ type: "espacios"
 ---
 
 
-<b>Horario:</b> 
+<b>Horario:</b>
 <b>Dirección:</b> Plaza Juan de Dios González, 0, 06510 Alburquerque, Badajoz
 <br>
 <b>Teléfono:</b> 924 40 17 22
