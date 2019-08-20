@@ -1,6 +1,11 @@
 baseURL = "http://example.org/"
+<<<<<<< HEAD
 languageCode = "en-us"
 title = "AExperience"
+=======
+languageCode = "es"
+title = "Restaurant Theme By Themefisher"
+>>>>>>> 0298f856daa8cf9b40968f44edad1076cad99246
 theme="restaurant-hugo"
 summaryLength = "7"
 
@@ -214,10 +219,6 @@ link = "https://fb.com/themefisher"
 [params.footerCopyright]
 enable = true
 Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburquerque."
-
-
-
-
 
 
 
