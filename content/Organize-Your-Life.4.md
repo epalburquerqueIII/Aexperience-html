@@ -1,11 +1,10 @@
 ---
-title: "Organize Your Life With 10 Simple rule"
+title: "Feria ganadera 2019"
 date: 2019-05-14T14:46:10+06:00
 description: "This is meta description"
 type: "eventos"
-image: "images/eventos-post/post-5.jpg"
-categories: 
-  - "Nature"
+image: "images/eventos-post/feriaganado.jpg"
+categories:
 tags:
   - "Fashion"
   - "Nature"

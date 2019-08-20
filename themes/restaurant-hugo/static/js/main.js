@@ -1,20 +1,5 @@
 $(document).ready(function(){
 
-/*
- $("#owl-example").owlCarousel({
-    // Most important owl features
-    items : 4,
-    pagination : true,
-    paginationSpeed : 1000,
-    navigation : true,
-    navigationText : ["","<i class='fa fa-angle-right'></i>"],
-    slideSpeed : 800,
- });
-
-	$("#navigation").sticky({
-		topSpacing : 75
-	});
-*/
     // animation scroll js
     var html_body = $('html, body');
     $('nav li a').on('click', function () { //use page-scroll class in any HTML tag for scrolling
