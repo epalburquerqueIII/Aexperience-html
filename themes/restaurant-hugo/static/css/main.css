@@ -455,7 +455,7 @@ nav.sticky {
 #espacios .block ul li h3 {
   padding: 0px 40px 20px;
   line-height: 26px;
-  /* position: relative; */
+  position: relative;
 }
 
 #espacios .block ul li h3  a {
