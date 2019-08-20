@@ -11,7 +11,7 @@
                 <ul class="nav navbar-nav navbar-right">
                   <li><a href="{{ .Site.BaseURL }}">{{ .Site.Params.home }}</a></li>
                   {{ range .Site.Menus.header }}
-                    {{ if (eq .Name "acceso") }}
+                    {{ if (eq .Name "Acceso") }}
                      <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
                       <li><a href="#myModal" data-toggle="modal">Login</a></li>
                     {{ else }}
