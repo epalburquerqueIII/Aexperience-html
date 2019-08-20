@@ -4,7 +4,6 @@ date: 2018-12-26T12:28:47+06:00
 image: images/espacios/campo.png
 type: "espacios"
 ---
-<<<<<<< HEAD
 
 
 <b>Horario:</b> 
@@ -12,5 +11,3 @@ type: "espacios"
 <b>Dirección:</b> Plaza Moreno Nieto, 22, 06510 Alburquerque, Badajoz
 <br>
 <b>Teléfono:</b>
-=======
->>>>>>> 2871ea971f92c671432e2e74d255f1dec6894d61
