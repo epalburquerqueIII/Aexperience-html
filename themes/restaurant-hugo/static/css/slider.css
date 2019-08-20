@@ -272,8 +272,6 @@ a.text-dark:hover {
 
 .slick-slide {
   outline: 0;
-  /* Margen superior del slider */
-  margin-top: 8px;
 }
 
 .section {

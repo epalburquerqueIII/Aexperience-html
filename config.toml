@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
-title = "AExperience"
 languageCode = "es"
+title = "AExperience"
 theme="restaurant-hugo"
 summaryLength = "7"
 
@@ -35,7 +35,7 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Acceso"
-    URL = "/acceso"
+    URL = "#acceso"
     weight = 6
 
     [[menu.nav]]
@@ -45,10 +45,10 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Registro"
-    URL = "/registro"
+    URL = "#registro"
     weight = 8
 
-    [[menu.nav]]
+     [[menu.nav]]
     name = "Blog"
     URL = "/blog/"
     weight = 9
@@ -107,7 +107,7 @@ description= "Mis Bonos - Mis Reservas - Mis Datos"
 [params.bonos]
 enable = true
 title = "Bonos  <span>Piscina</span> y <span>Gym</span>"
-description= "Las instalaciones de la piscina estarán abiertas de lunes a domingo en horario de 12:00 a 21:00 h. y las instalaciones del gym de lunes a viernes de 12:00 a 14:00 y de 17:00 a 22:30 h. y los sábados de 12:00 a 14:00"
+description= "Las instalaciones de la piscina estarán abiertas de lunes a domingo en horario de 12:00 a 21:00 h."
 subtitle = "Precios"
 
 [[params.bonos.item]]
@@ -162,8 +162,8 @@ title = "<span>Reserva</span> de <span>Espacios</span>"
 #blog
 [params.blog]
 enable = true
-title = "Manténte al día con nosotros"
-subtitle = "Catch up with us, anytime and anywhere"
+title= "<span>Blog </span>"
+subtitle = "Últimas Noticias"
 
 
 #Footer
@@ -178,7 +178,7 @@ socialTitle = "REDES <span>SOCIALES</span>"
 [[params.footer.contactoItem]]
 title="Teléfono"
 icon = "fa fa-mobile"
-content = "924 40 00 00 - 924 40 00 01"
+content = "924 40 00 01 - 924 40 00 00"
 
 [[params.footer.contactoItem]]
 title="Fax"
@@ -188,7 +188,7 @@ content = "924 40 10 47"
 [[params.footer.contactoItem]]
 title="Dirección Ayuntamiento de Alburquerque"
 icon = "fa fa-map-marker"
-content = "Calle San Mateo, 1; 06510, Alburquerque (Badajoz)"
+content = "Calle San Mateo, 1, 06510 Alburquerque (Badajoz)"
 
 [[params.footer.contactoItem]]
 title="Email"
