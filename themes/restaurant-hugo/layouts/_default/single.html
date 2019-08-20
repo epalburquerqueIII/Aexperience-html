@@ -1,16 +1,16 @@
 {{ partial "header.html" . }}
 
+{{ partial "inicio.html" . }}
+
 {{ partial "navigation.html" . }}
 
 <section class="section blog-single-page">
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2 text-center">
-                <img class=" img-fluid post-thumb d-inline-block" src="{{ .Params.image | absURL }}" alt="blog-image">
-                <br>
-                <br>
-                <br>
                 <h1 class="post-title">{{ .Title }}</h1>
+                <br>
+                <img class=" img-fluid post-thumb d-inline-block" src="{{ .Params.image | absURL }}" alt="blog-image">
                 <ul class="list-inline mb-50 post-meta">
                     <!-- <li class="list-inline-item">{{ .Params.author }}</li> -->
                     <!-- <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li> -->
