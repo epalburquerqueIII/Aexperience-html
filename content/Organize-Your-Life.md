@@ -1,11 +1,10 @@
 ---
-title: "Organize Your Life With 10 Simple rule"
+title: "IV Open Balonmano Playa 2019"
 date: 2019-05-14T14:46:10+06:00
 description: "This is meta description"
 type: "eventos"
-image: "images/eventos-post/post-1.jpg"
-categories: 
-  - "Valuable Idea"
+image: "images/eventos-post/bmplaya.jpg"
+categories:
 tags:
   - "Photos"
   - "Finance"
