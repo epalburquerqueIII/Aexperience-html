@@ -253,6 +253,7 @@ nav {
   z-index: 99999;
   width: 100%;
 }
+/* menu */
 nav .block {
   margin-top: -85px;
   background: #fff;
@@ -338,6 +339,12 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   position: relative;
   display: block;
   padding: 10px 15px;
+}
+
+nav.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 75px;
 }
 
 /*--
