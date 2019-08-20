@@ -48,7 +48,7 @@ summaryLength = "7"
     URL = "/registro"
     weight = 8
 
-     [[menu.nav]]
+    [[menu.nav]]
     name = "Blog"
     URL = "/blog/"
     weight = 9
