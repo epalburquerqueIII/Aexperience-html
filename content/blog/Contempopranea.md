@@ -1,5 +1,5 @@
 +++
-title = "How To Setup Airspace Hugo"
+title = "Resumen de la 24 edición del festival Contempopránea"
 date = "2019-3-06T21:49:20+02:00"
 description = "This is meta description for blog page"
 tags = ["golang", "programming", "theme", "hugo"]

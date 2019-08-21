@@ -20,11 +20,11 @@
                               <ul class="navbar-nav navbar-right nav" id="top-nav">
                                 <li class="nav-item"><a class="nav-link" href="#inicio">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
                                 {{ range $.Site.Menus.nav }}
-                                   {{ if (eq .Name "Acceso") }}
+                                   {{ if (eq .Name "acceso") }}
                                    <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
                                       <li class="nav-item"><a class="nav-link" href="#myModal" data-toggle="modal">Acceso</a></li>
                                    {{ else }}
-                                     {{ if (eq .Name "Registro") }}
+                                     {{ if (eq .Name "registro") }}
                                      <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
                                        <li class="nav-item"><a class="nav-link"  href="#myReg" data-toggle="modal">Registro</a></li>
                                      {{ else }}
