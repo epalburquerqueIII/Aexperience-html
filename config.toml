@@ -197,16 +197,15 @@ content = "webmaster@alburquerque.es"
 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://www.facebook.com/AgenciaDeDesarrolloLocalDeAlburquerque/?ref=br_rs"
+link = "https://www.facebook.com/sharer/sharer.php?u=%20http%3A//localhost%3A1313"
 
 [[params.footer.socialLink]]
 icon = "twitter"
-link = "https://fb.com/themefisher"
+link = "https://twitter.com/home?status=Est%C3%A1%20usando%20Alburquerque%20Experience!"
 
 [[params.footer.socialLink]]
 icon = "instagram"
-link = "https://fb.com/themefisher"
-
+link = "https://www.instagram.com/?hl=es"
 
 #Footer Copyright
 

@@ -52,7 +52,7 @@
 
 body {
   font-family: myfont;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 600;
 }
 
@@ -964,7 +964,7 @@ nav.sticky {
 --*/
 #footer-bottom {
   background: #E9E9E9;
-  padding: 20px 0px;
+  padding: 0px 0px;
 }
 #footer-bottom p {
   text-align: center;
