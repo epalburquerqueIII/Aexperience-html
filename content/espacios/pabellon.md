@@ -1,9 +1,10 @@
 ---
-title: "Pabellón"
+title: "Pabellón Polideportivo Alburquerque"
 date: 2018-12-26T12:30:01+06:00
 image: images/espacios/pabellon.jpg
 type: "espacios"
 ---
+
 
 <b>Horario:</b>
 <br>
