@@ -3,17 +3,8 @@ title: "Festival Medieval 2019"
 date: 2019-05-14T14:46:10+06:00
 description: "This is meta description"
 type: "eventos"
-<<<<<<< HEAD:content/Organize-Your-Life.3.md
-<<<<<<< HEAD:content/eventos/Medieval.md
-image: "images/eventos-post/medieval.jpg"
-imageslide: "images/eventos-post/medieval.jpg"
-=======
-image: "images/eventos/medieval.jpg"
->>>>>>> 7b747c664e9faaba02a96a5c1ee390b97dee9a2e:content/Organize-Your-Life.3.md
-=======
 image: "images/eventos/medieval3.jpg"
 imageslide: "images/eventos/medieval.jpg"
->>>>>>> b365392f171d034966507d138a57419073d876c0:content/eventos/Festival-Medieval.md
 categories:
 tags:
 ---
