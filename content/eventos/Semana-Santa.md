@@ -1,14 +1,19 @@
 ---
-title: "Festival Medieval 2019"
+title: "Semana Santa 2019"
 date: 2019-05-14T14:46:10+06:00
 description: "This is meta description"
 type: "eventos"
-<<<<<<< HEAD:content/eventos/Medieval.md
-image: "images/eventos-post/medieval.jpg"
-imageslide: "images/eventos-post/medieval.jpg"
+<<<<<<< HEAD:content/Organize-Your-Life.1.md
+<<<<<<< HEAD:content/eventos/Semana-Santa.md
+image: "images/eventos-post/semanasanta.jpg"
+imageslide: "images/eventos-post/semanasanta.jpg"
 =======
-image: "images/eventos/medieval.jpg"
->>>>>>> 7b747c664e9faaba02a96a5c1ee390b97dee9a2e:content/Organize-Your-Life.3.md
+image: "images/eventos/semanasanta.jpg"
+>>>>>>> 7b747c664e9faaba02a96a5c1ee390b97dee9a2e:content/Organize-Your-Life.1.md
+=======
+image: "images/eventos/semanasanta1.jpg"
+imageslide: "images/eventos/semanasanta.jpg"
+>>>>>>> b365392f171d034966507d138a57419073d876c0:content/eventos/Semana-Santa.md
 categories:
 tags:
 ---
