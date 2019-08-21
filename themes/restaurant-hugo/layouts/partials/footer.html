@@ -2,7 +2,7 @@
 <section id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="block wow fadeInLeft" data-wow-delay="200ms">
                     <h3>{{ with .Site.Params.footer.contactoInfoTitle }} {{ . | safeHTML }} {{ end }}</h3>
                     <div class="info">
@@ -18,12 +18,31 @@
                     </div>
                 </div>
             </div>
-            <!-- .col-md-4 close -->
+
             <div class="col-md-6">
+                <div class="block wow fadeInLeft" data-wow-delay="200ms">
+                    <br>
+                    <h3>{{ with .Site.Params.footer.contactInfoTitle }} {{ . | safeHTML }} {{ end }}</h3>
+                    <div class="info">
+                        <ul>
+                            {{ range $.Site.Params.footer.contacto2Item }}
+                            <li>
+                                <h4><i class="{{.icon}}"></i>{{ .title }}</h4>
+                                <p>{{ .content }}</p>
+
+                            </li>
+                            {{end}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- .col-md-4 close -->
+            <div class="col-md-0">
                 <div class="block wow fadeInLeft" data-wow-delay="1100ms">
                     <div class="social-media-link">
                         <h3>{{ with .Site.Params.footer.socialTitle }} {{ . | safeHTML }} {{ end }}</h3>
                         <ul>
+                            <br>
                             {{ range $.Site.Params.footer.socialLink }}
                             <li>
                                 <a href="{{ .link }}">

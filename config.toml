@@ -107,7 +107,7 @@ description= "Mis Bonos - Mis Reservas - Mis Datos"
 [params.bonos]
 enable = true
 title = "Bonos  <span>Piscina</span> y <span>Gym</span>"
-description= "Las instalaciones de la piscina estarán abiertas de lunes a domingo en horario de 12:00 a 21:00 h."
+description= "Las instalaciones de la piscina municipal estarán abiertas en verano de lunes a domingo en horario de 12:00 - 21:00 h. Horario de Verano Gym: Lunes de 18:00 - 22:30 h, Martes a Viernes de 12:00 - 14:00 h / 18:00 - 22:30 h, Sábado de 12:00 - 14:00 h. Horario de Invierno Gym: Lunes de 17:00 - 22:30 h, Martes a Viernes de 12:00 - 14:00 h / 17:00 - 22:00 h, Sábado de 12:00 - 14:00 h."
 subtitle = "Precios"
 
 [[params.bonos.item]]
@@ -185,28 +185,27 @@ title="Fax"
 icon = "fa fa-phone"
 content = "924 40 10 47"
 
-[[params.footer.contactoItem]]
+[[params.footer.contacto2Item]]
 title="Dirección Ayuntamiento de Alburquerque"
 icon = "fa fa-map-marker"
 content = "Calle San Mateo, 1, 06510 Alburquerque (Badajoz)"
 
-[[params.footer.contactoItem]]
+[[params.footer.contacto2Item]]
 title="Email"
 icon = "fa fa-envelope"
 content = "webmaster@alburquerque.es"
 
 [[params.footer.socialLink]]
 icon = "facebook"
-link = "https://www.facebook.com/AgenciaDeDesarrolloLocalDeAlburquerque/?ref=br_rs"
+link = "https://www.facebook.com/sharer/sharer.php?u=%20http%3A//localhost%3A1313"
 
 [[params.footer.socialLink]]
 icon = "twitter"
-link = "https://fb.com/themefisher"
+link = "https://twitter.com/home?status=Est%C3%A1%20usando%20Alburquerque%20Experience!"
 
 [[params.footer.socialLink]]
 icon = "instagram"
-link = "https://fb.com/themefisher"
-
+link = "https://www.instagram.com/?hl=es"
 
 #Footer Copyright
 
