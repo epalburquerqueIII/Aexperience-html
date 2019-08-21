@@ -1,83 +1,50 @@
 +++
 title = "Resumen de la 24 edición del festival Contempopránea"
-date = "2019-3-06T21:49:20+02:00"
-description = "This is meta description for blog page"
+date = "2019-7-21T21:49:20+02:00"
+description = "Resumen Contempopranea"
 tags = ["golang", "programming", "theme", "hugo"]
 categories = ["starting"]
 author = "Themefisher"
-image = "images/blog/blog-post-1.jpg"
+image = "images/blog/contempopranea.jpg"
 +++
 
-## Install this template by following those simple steps:
 
-### STEP-1 : Hugo installation
 
-Check this link below for install hugo on your computer.
-[hugo install documentation](https://gohugo.io/getting-started/installing/)
+<br>
+<br>
+<br>
 
-### STEP-2 : Create your project
 
-Hugo provides a `new` command to create a new website.
+Alburquerque vuelve a la normalidad tras un largo fin de semana de diversión, convivencia y ambiente en torno al pop 
+independiente. Contempopranea pone fin a su 24ª edición, que comenzó el jueves 18 de julio con la fiesta de bienvenida en la plaza de España en la cual actuaron Delrey, Anxolotes Mexicanos y Satelitrex dj. La fiesta estuvo protagonizada por el pregón del batería de Los Planetas, Eric Jiménez; «me siento muy honrado y agradecido», expresó. El músico dijo que este ha sido un festival en el que se ha desarrollado como artista y ha pasado momentos entrañables; «tiene una magia alucinante«. Eric declaró que «lo mejor del festival es la gente del pueblo» y deseó «paz, amor y larga vida al Contempopranea».
 
-```
-hugo new site <new_project>
-```
+<br>
 
-### STEP-3 : Install the theme
-Run this command
-```
-hugo new site airspace-hugo
-```
-and then go to the themes folder inside of airspace-hugo folder. You can also use this command ```cd airspace-hugo/themes``` for going to this folder.
-Then run the command 
-```
-git clone git@github.com:themefisher/airspace-hugo.git
-```
+En líneas generales, el festival ha contado con menos afluencia de público que en años anteriores. El momento de mayor aglomeración del viernes se vivió con el gran show y conciertazo de Zahara. Antes se dirigió a los medios expresando que el Contempopranea es un «un festival mítico, con el que hemos crecido». Además mandó un saludo a nuestros lectores, demostrando gran cercanía y espontaneidad, al igual que hicieron Second. Probablemente la actuación de los murcianos fue la más multitudinaria de las dos noches.
 
-Alternatively, you can [download the theme as .zip](https://github.com/themefisher/airspace-hugo/archive/master.zip) file and extract it in the `themes` directory
+<br>
 
-After that you need to go to the `airspace-hugo/exampleSite` folder and copy or cut all the elements, and now go back to the root folder and paste it here.
+<!-- enlace para video -->
+{{< youtube xUNgpb5U-bY >}} 
 
-open the command prompt again and run `cd ../` command for go back to the root folder.
+<br>
 
-### STEP-4 : Host locally
+# Conciertos relevantes
 
-Launching the website locally by using the following command:
+<br>
 
-```
-hugo serve
-```
+Carolina Durante sonó como un auténtico cañonazo, al igual que Viva Suecia. A nuestro juicio, los dos mejores conciertos de esta edición. Muy destacables también las actuaciones de Ángel Stanich, que protagonizó una auténtica comunión con sus fans, o la de Cooper, marcada por la emotividad de su despedida tras media vida en los escenarios.
 
-Go to `http://localhost:1313`
+<br>
 
-Or you can check this video documentation for installing this template:
-{{< youtube 1wKDqma9Hl0 >}}
+Tras los conciertos fueron muchos los que quisieron seguir con la fiesta
+hasta bien entrada la mañana en los locales más emblemáticos para la parroquia indie. Precisamente ese espíritu de convivencia es una de las señas de identidad de la cita, junto al hecho de que el público pueda disfrutar de sus artistas favoritos a escasos metros de distancia y lejos de los agobios que se dan en otros festivales más masificados. Ahora toca ya pensar en el año que viene.
 
-### STEP-5 : Basic configuration
+<br>
+<br>
 
-When building the website, you can set a theme by using `--theme` option. However, we suggest you modify the configuration file (`config.toml`) and set the theme as the default.
+{{< youtube _lzWKC3HJvw >}}
 
-```toml
-# Change the default theme to be use when building the site with Hugo
-theme = "airspace-hugo"
-```
-
-### STEP-6 : Create your first content pages
-
-```
-hugo new blog/post-name.md
-```
-
-### STEP-7 : Build the website
-
-When your site is ready to deploy, run the following command:
-
-```
-hugo
-
-# You can also create a minified version by using this command:
-hugo--minify
-
-```
-
-A `public` folder will be generated, containing all static content and assets for your website. It can now be deployed on any web server.
+<br>
+<br>
+<b>fuente: </b> www.baylio.com <br> extremadura 7 dias <br>  www.contempopranea.com
