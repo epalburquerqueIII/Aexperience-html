@@ -13,13 +13,12 @@
 				{{ range (.Paginator 6).Pages }}
 				<div class="col-md-6">
 					<article class="blog-post">
-						{{ with .Params.image }}
-						<img src="{{ . | absURL }}" class="img-fluid" alt="post-thumb"> {{ end }}
+						<a href="{{ .Permalink }}">{{ with .Params.image }}<img src="{{ . | absURL }}" class="img-fluid" alt="post-thumb"></a> {{ end }}
 						<a class="post-title" href="{{ .Permalink }}">{{ .Title }}</a>
 						<p>
 							{{ .Summary }}
 						</p>
-						<a href="{{ .Permalink }}" class="btn btn-main">Read More</a>
+						<a href="{{ .Permalink }}" class="btn btn-main">Leer mas </a>
 					</article>
 				</div>
 				{{ end }}
