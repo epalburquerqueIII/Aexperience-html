@@ -5,6 +5,8 @@ description: "This is meta description"
 type: "eventos"
 image: "images/eventos/medieval3.jpg"
 imageslide: "images/eventos/medieval.jpg"
+author:
+identifier:
 categories:
 tags:
 ---

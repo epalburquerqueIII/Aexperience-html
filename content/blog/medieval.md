@@ -1,11 +1,11 @@
-+++
-title = "Un medieval excepcional"
-date = "2015-08-03T13:39:46+02:00"
-description = "This is meta description for blog page"
-tags = ["hugo"]
-categories = ["pseudo"]
-image = "images/blog/blog-medieval.jpg"
-+++
+---
+title: "Un medieval excepcional"
+date: 2015-08-03T13:39:46+02:00
+description: "This is meta description for blog page"
+type: "post"
+author:
+image: "images/blog/blog-medieval.jpg"
+---
 
 
 La XXVI edición del Festival Medieval «Villa de Alburquerque» ha culminado con exitoso y extraordinario balance. Así nos lo confirmaba en la noche de ayer su directora, Ángela Robles, que quiso aprovechar la ocasión para expresar un agradecimiento general «al pueblo de Alburquerque» por su implicación con la fiesta. Ángela mostró la satisfacción de la organización con todos los actos; «han salido como los teníamos preparados». Al mismo tiempo tuvo una mención de gratitud especial hacia los trabajadores municipales y los coordinadores; «hacen un trabajo fantástico».

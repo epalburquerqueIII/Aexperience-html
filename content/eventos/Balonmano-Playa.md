@@ -5,6 +5,8 @@ description: "This is meta description"
 type: "eventos"
 image: "images/eventos/bmplaya1.jpg"
 imageslide: "images/eventos/bmplaya.jpg"
+author:
+identifier:
 categories:
 tags:
 ---

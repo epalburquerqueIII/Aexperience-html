@@ -5,6 +5,8 @@ description: "This is meta description"
 type: "eventos"
 image: "images/eventos/mediamaraton1.jpg"
 imageslide: "images/eventos/mediamaraton.jpg"
+author:
+identifier:
 categories:
 tags:
 ---

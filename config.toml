@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "es"
 title = "AExperience"
-theme="restaurant-hugo"
+theme= "restaurant-hugo"
 summaryLength = "7"
 
 
@@ -57,7 +57,6 @@ summaryLength = "7"
 [params]
 logo = "images/logoex.png"
 
-
 [params.inicio]
 enable = true
 [params.heroImg ]
@@ -67,9 +66,7 @@ url =  "images/castillo4.jpg"
 [params.slider]
 enable = true
 
-
 #gallery item
-
 [params.gallery]
 enable = false
 title= "Próximos <span>Eventos</span>"
@@ -101,12 +98,10 @@ title= "Mi <span> Perfil</span>"
 bgImage = "images/cooker-img.png"
 description= "Mis Bonos - Mis Reservas - Mis Datos"
 
-
 #bonos Menu
-
 [params.bonos]
 enable = true
-title = "Bonos  <span>Piscina</span> y <span>Gym</span>"
+title = "Bonos <span>Piscina</span> y <span>Gym</span>"
 description= "Las instalaciones de la piscina estarán abiertas de lunes a domingo en horario de 12:00 a 21:00 h."
 subtitle = "Precios"
 
@@ -137,7 +132,6 @@ bonos = "1.50 €"
 
 
 #subscription
-
 [params.subscription]
 enable = true
 title= "SUBSCRIBETE a nuestra <span>NEWSLETTER</span>"
@@ -150,8 +144,8 @@ formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
 [params.contactos]
 enable = true
-title= "<span>Contacto </span>"
-subtitle= "Escríbenos"
+title= "<span>Contacto</span>"
+subtitle= "Escribenos"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
 
 
@@ -162,15 +156,14 @@ title = "<span>Reserva</span> de <span>Espacios</span>"
 #blog
 [params.blog]
 enable = true
-title= "<span>Blog </span>"
-subtitle = "Últimas Noticias"
+title= "<span>Blog</span>"
+subtitle = "Ultimas Noticias"
 
 
 #Footer
-
 [params.footer]
 enable = true
-contactoInfoTitle = "INFO <span>CONTACTO</span>"
+contactoInfoTitle = "INFO DE <span>CONTACTO</span>"
 espaciosTitle = "MI <span>PERFIL</span>"
 galleryTitle = "Fotos <span>Eventos</span>"
 socialTitle = "REDES <span>SOCIALES</span>"
@@ -178,7 +171,7 @@ socialTitle = "REDES <span>SOCIALES</span>"
 [[params.footer.contactoItem]]
 title="Teléfono"
 icon = "fa fa-mobile"
-content = "924 40 00 01 - 924 40 00 00"
+content = "924 40 00 00 - 924 40 00 0"
 
 [[params.footer.contactoItem]]
 title="Fax"
@@ -186,40 +179,29 @@ icon = "fa fa-phone"
 content = "924 40 10 47"
 
 [[params.footer.contacto2Item]]
-title="Dirección Ayuntamiento de Alburquerque"
+title="Ayuntamiento de Alburquerque"
 icon = "fa fa-map-marker"
-content = "Calle San Mateo, 1, 06510 Alburquerque (Badajoz)"
+content = "Calle San Mateo, 1 - 06510 Alburquerque (Badajoz)"
 
 [[params.footer.contacto2Item]]
 title="Email"
 icon = "fa fa-envelope"
 content = "webmaster@alburquerque.es"
 
+# Redes sociales
 [[params.footer.socialLink]]
-icon = "facebook"
+icon = "fa fa-facebook"
 link = "https://www.facebook.com/sharer/sharer.php?u=%20http%3A//localhost%3A1313"
 
 [[params.footer.socialLink]]
-icon = "twitter"
+icon = "fa fa-twitter"
 link = "https://twitter.com/home?status=Est%C3%A1%20usando%20Alburquerque%20Experience!"
 
 [[params.footer.socialLink]]
-icon = "instagram"
+icon = "fa fa-instagram"
 link = "https://www.instagram.com/?hl=es"
-
-#Footer Copyright
 
 #Footer Copyright Text
 [params.footerCopyright]
 enable = true
-Text = "Copyright 2019 - Todos los derechos reservados. Ayuntamiento de Alburquerque."
-
-
-
-
-
-
-
-
-
-
+Text = "Copyright © 2019 - Todos los derechos reservados. Ayuntamiento de Alburquerque."
