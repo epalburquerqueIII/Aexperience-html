@@ -1,12 +1,13 @@
 ---
-title: "Piscina Climatizada"
+title: "Piscina Municipal Climatizada"
 date: 2018-12-26T12:28:47+06:00
 image: "images/espacios/piscina.jpg"
 type: "espacios"
 ---
 
-<b>Horario:</b>
+
+**Horario:**
 <br>
-<b>Dirección:</b> Ctra. Valencia de Alcántara - Badajoz, Km 31, 06510 Alburquerque, Badajoz
+**Dirección:** Ctra. Valencia de Alcántara - Badajoz, Km 31, 06510 Alburquerque, Badajoz
 <br>
-<b>Teléfono:</b> 924 40 05 12
+**Teléfono:** 924 40 05 12
