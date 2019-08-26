@@ -101,13 +101,8 @@ description= "Mis Bonos - Mis Reservas - Mis Datos"
 #bonos Menu
 [params.bonos]
 enable = true
-<<<<<<< HEAD
-title = "Bonos <span>Piscina</span> y <span>Gym</span>"
-description= "Las instalaciones de la piscina estarán abiertas de lunes a domingo en horario de 12:00 a 21:00 h."
-=======
 title = "Bonos  <span>Piscina</span> y <span>Gym</span>"
 description= "Las instalaciones de la piscina municipal estarán abiertas en verano de lunes a domingo en horario de 12:00 - 21:00 h. Horario de Verano Gym: Lunes de 18:00 - 22:30 h, Martes a Viernes de 12:00 - 14:00 h / 18:00 - 22:30 h, Sábado de 12:00 - 14:00 h. Horario de Invierno Gym: Lunes de 17:00 - 22:30 h, Martes a Viernes de 12:00 - 14:00 h / 17:00 - 22:00 h, Sábado de 12:00 - 14:00 h."
->>>>>>> 77cea4c342982b635c083cf10dbda6d3e1255ba8
 subtitle = "Precios"
 
 [[params.bonos.item]]
