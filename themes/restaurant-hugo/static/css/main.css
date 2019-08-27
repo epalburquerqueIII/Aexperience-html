@@ -1,11 +1,62 @@
 /* var text-decoration */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Playfair+Display:400,700");
 @font-face {
-  font-family: myfont;
-  src: url(../fonts/ufonts.com_tw-cen-mt.ttf);
+  font-family: 'hanskendrick';
+  src: url("../fonts/hanskendrick-regular-webfont.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
 }
-/*--
-    Common Css
---*/
+/*--Common Css--*/
+
+a:hover{
+  color:#eb4944;
+  text-decoration:underline;
+}
+
+a.text-dark:hover {
+  color: #eb4944 !important;
+}
+
+/* Tamaño titulos sidebar */
+.enlace{
+  font-size: 16px;
+}
+
+/* Color al seleccionar con el raton */
+::selection {
+  background: #eb4944;
+  color: #fff;
+}
+
+/* Color de fondo de titulo de single */
+.blog-single-page {
+  margin-top: 7px;
+  background: #fbdad9 !important;
+}
+
+/* Alineacion titulo sidebar */
+.mb-4{
+  margin-top: 13px !important;
+  margin-bottom: 25px !important;
+}
+
+/* Alineacion fecha y autor single */
+.mb-50 {
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+
+/* Parrafo de color de single */
+blockquote {
+  font-style: italic;
+  color: #000000;
+  background: #fbdad9;
+  padding: 20px;
+  font-weight: 600;
+  border-radius: 25px;
+}
+
+
 
 /* boton1 */
 .btn.btn-primary.red{
@@ -17,7 +68,7 @@
 
 }
 .btn.btn-primary.red:hover{
-  background-color: #e04e48 !important ;
+  background-color: #eb4944 !important ;
 }
 
 /* posicion boton derecha */
@@ -51,19 +102,18 @@
 }
 
 body {
-  font-family: myfont;
-  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
   font-weight: 600;
+  line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0px;
-  font-family: myfont;
+  font-family: "hanskendrick";
+  font-weight: 600;
+  line-height: 1.2;
 }
 h1 {
   font-size: 36px;
@@ -79,9 +129,9 @@ h3 {
 p {
   font-size: 15px;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 1.5;
   margin: 0px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: italic;
   color: #666;
 }
@@ -89,22 +139,24 @@ p {
 .btn-main,
 .btn-transparent,
 .btn-small {
-  background: #655E7A;
-  color: #fff;
+  border-color: #e41f18;
+  border-width: 2px;
+  color:#e41f18;
   display: inline-block;
-  font-size: 14px;
-  letter-spacing: 3px;
+  font-size: 15px;
   padding: 14px 35px;
-  text-transform: uppercase;
-  border-radius: 0;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  /* text-transform: capitalize; */
+  border-radius: 5;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  font-weight: 600;
 }
 
 .btn-main:hover,
 .btn-transparent:hover,
 .btn-small:hover {
-  background: #353240;
+  background: #eb4944;
+  border-color: #eb4944;
   color: #fff;
 }
 .btn-solid-border {
@@ -130,11 +182,9 @@ p {
   margin: 15px 0 20px;
 }
 
-
-
 .post-title {
-  color: #655E7A;
-  font-size: 25px;
+  color:#2E2E2E;
+  font-size: 30px;
   font-weight: 600;
   display: block;
   margin-bottom: 10px;
@@ -153,7 +203,7 @@ a:active {
   font-size: 25px;
 }
 .section {
-  padding:100px 0;
+  padding: 100px 0;
 }
 
 .d-inline-block{
@@ -206,6 +256,15 @@ a:active {
   padding: 30px 0px;
   text-align: center;
 }
+
+.title2 {
+  color: #2E2E2E;
+  text-transform: uppercase;
+  padding: 30px 0px;
+  text-align: center;
+  margin-bottom: -70px;
+}
+
 .title span {
   color: #e41f18;
 }
@@ -258,8 +317,8 @@ nav .block {
   margin-top: -85px;
   background: #fff;
   border-radius: 10px;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -40px;
+  margin-right: -40px;
   background: rgba(255, 255, 255, 0.959);
 }
 nav .block .navbar-default {
@@ -272,7 +331,8 @@ nav .block .navbar-default .navbar-brand {
   padding-left: 0px;
 }
 nav .block .navbar-default .navbar-nav {
-  padding-top: 10px;
+  /* Comentado porque añadia un espacio encima del menu */
+  /* padding-top: 10px; */
 }
 nav .block .navbar-default .navbar-nav > li > a {
   color: #2E2E2E;
@@ -485,7 +545,7 @@ nav.sticky {
   float: left;
   width: 50%;
   height: 100%;
-  background: red;
+  background: #e41f18;
   overflow: hidden;
 }
 #espacios .block ul li .espacios-img img {
@@ -601,6 +661,7 @@ nav.sticky {
   font-size: 16px;
   line-height: 26px;
   padding: 40px 133px 0;
+  margin-bottom: -50px;
   text-align: center;
 }
 #bonos .block .pricing-list {
@@ -632,7 +693,7 @@ nav.sticky {
 }
 #bonos .block .pricing-list ul li .item .item-title span {
   float: right;
-  color: #938463;
+  color: #eb4944;
 }
 #bonos .block .pricing-list ul li .item p {
   padding: 12px 0 0px;
@@ -676,13 +737,13 @@ nav.sticky {
   height: 65px;
   border-radius: 0;
   width: 75%;
-  display: inline-block;
+  /* display: inline-block; */
   float: left;
   outline: none;
 }
 #mc_embed_signup .mc-field-group input.button {
   height: 65px;
-  float: left;
+  /* float: left; */
   display: inline-block;
   width: 25%;
   margin:0;
@@ -921,20 +982,21 @@ nav.sticky {
 }
 #footer .block .social-media-link h3 {
   font-size: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 11px;
   padding-top: 0px;
 }
 #footer .block .social-media-link h3 span {
   color: #e41f18;
 }
 #footer .block .social-media-link ul li {
+  /* Botones de redes sociales y espacio entre ellos */
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 7px;
 }
 #footer .block .social-media-link ul li a {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   text-align: center;
   font-size: 20px;
   padding-top: 8px;
@@ -954,7 +1016,7 @@ nav.sticky {
 --*/
 #footer-bottom {
   background: #E9E9E9;
-  padding: 20px 0px;
+  padding: 0px 0px;
 }
 #footer-bottom p {
   text-align: center;

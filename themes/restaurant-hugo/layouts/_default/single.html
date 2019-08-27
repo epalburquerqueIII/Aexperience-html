@@ -4,25 +4,36 @@
 
 {{ partial "navigation.html" . }}
 
+<!-- Título de la página -->
 <section class="section blog-single-page">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 offset-md-2 text-center">
+            <div class="col-lg-12">
                 <h1 class="post-title">{{ .Title }}</h1>
-                <br>
-                <img class=" img-fluid post-thumb d-inline-block" src="{{ .Params.image | absURL }}" alt="blog-image">
-                <ul class="list-inline mb-50 post-meta">
-                    <!-- <li class="list-inline-item">{{ .Params.author }}</li> -->
-                    <!-- <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li> -->
-                </ul>
-            </div>
-            <div class="col-md-8 offset-md-2">
-                <div class="post-single-content">
-                    {{ .Content }}
-                </div>
             </div>
         </div>
     </div>
 </section>
+<!-- /Título de la página -->
+
+<!-- Blog single -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <ul class="list-inline d-flex justify-content-between mb-50">
+                    <li class="list-inline-item"><i class="ti-user mr-2"></i>{{ .Params.Author }}</li>
+                    <li class="list-inline-item"><i class="ti-calendar mr-2"></i>{{ dateFormat "2-1-2006" .Date }}</li>
+                </ul>
+                <img class=" img-fluid post-thumb d-inline-block" src="{{ .Params.image | absURL }}" alt="blog-image">
+                <article class="content">
+                        {{ .Content }}
+                </article>
+            </div>
+            {{partial "sidebar.html" . }}
+        </div>
+    </div>
+</section>
+<!-- /Blog single -->
 
 {{ partial "footer.html" . }}

@@ -1,4 +1,4 @@
-+++
-title = "Contacto"
-id = "contactos"
-+++
+---
+title: "Contacto"
+id: "contactos"
+---

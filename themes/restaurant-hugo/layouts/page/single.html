@@ -6,7 +6,7 @@
 <body>
 
 	{{ partial "header.html" . }}
-	
+
 	{{ if isset .Params "id" }}
 		{{ partial .Params.id . }}
 	{{ else }}
@@ -19,6 +19,5 @@
 
 	{{ partial "footer.html" . }}
 
-	
 </body>
 </html>
