@@ -18,19 +18,29 @@
                             </button>
                             <div class="collapse navbar-collapse" id="navbarmenu">
                               <ul class="navbar-nav navbar-right nav" id="top-nav">
-                                <li class="nav-item"><a class="nav-link" href="#inicio">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#inicio"></a></li>
+                                {{ $currentPage := . }}
                                 {{ range $.Site.Menus.nav }}
-                                   {{ if (eq .Name "Acceso") }}
+                                   <span class="{{ if $currentPage.IsMenuCurrent "blog" .}}active{{end}}"></span>
+                                   {{ if (eq .Name "Acceso" ) }}
                                    <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
-                                      <li class="nav-item"><a class="nav-link" href="#myModal" data-toggle="modal">Acceso</a></li>
+                                      <li class="nav-item"><a class="nav-link" title="{{ .Post }}" href="#myModal" data-toggle="modal">Acceso</a></li>
                                    {{ else }}
                                      {{ if (eq .Name "Registro") }}
                                      <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
-                                       <li class="nav-item"><a class="nav-link"  href="#myReg" data-toggle="modal">Registro</a></li>
+                                       <li class="nav-item" title="{{ $currentPage }}/{{ .Title }}"><a class="nav-link" href="#myReg" data-toggle="modal">Registro</a></li>
                                      {{ else }}
-                                       <li class="nav-item"><a class="nav-link"  href="{{ .URL }}">{{ .Name }}</a></li>
-                                     {{ end }}
-                                   {{ end }}
+                                       {{ if (eq .Title "All") }}
+                                         <li class="nav-item">
+                                           <a class="nav-link" title="{{ $currentPage.Permalink }}/{{ .Title }}"  href="{{ .URL }}">{{ .Name }}</a>
+                                         </li>
+                                       {{ else }}
+                                         {{ if ($currentPage.IsHome) }}
+                                           <li class="nav-item" ><a class="nav-link" title="{{ $currentPage.Description }}a/{{ .Title }}" href="{{ .URL }}">{{ .Name }}</a></li>
+                                         {{ end }} <!-- Title -->
+                                       {{ end }} <!-- All -->
+                                     {{ end }} <!-- Registro -->
+                                   {{ end }} <!-- Acceso -->
                                 {{ end }}
                               </ul>
                             </div><!-- /.navbar-collapse -->
@@ -40,4 +50,7 @@
                 </div><!-- .col-md-12 close -->
             </div><!-- .row close -->
         </div><!-- .container close -->
-	</nav><!-- header close -->
+  </nav><!-- header close -->
+
+
+  

@@ -10,53 +10,70 @@ summaryLength = "7"
 
 	[[menu.nav]]
     name = "Inicio"
-    URL = "#inicio"
+    URL = "/"
     weight = 1
+    post = "<All>"
+    title = "All"
 
     [[menu.nav]]
     name = "Espacios"
     URL = "#espacios"
     weight = 2
+    post = ""
+    title = "main"
 
     [[menu.nav]]
     name = "Bonos"
     URL = "#bonos"
     weight = 3
+    post = ""
+    title = "main"
 
     [[menu.nav]]
     name = "Newsletter"
     URL = "#subscribe"
     weight = 4
+    post = ""
+    title = "main"
 
     [[menu.nav]]
     name = "Contacto"
     URL = "/contactos"
     weight = 5
+    post = "<All>"
+    title = "All"
 
     [[menu.nav]]
     name = "Acceso"
     URL = "/acceso"
     weight = 6
+    post = "<All>"
+    title = "All"
 
     [[menu.nav]]
     name = "Mi perfil"
     URL = "#miperfil"
     weight = 7
+    post = "<All>"
+    title = "All"
 
     [[menu.nav]]
     name = "Registro"
     URL = "/registro"
     weight = 8
+    post = "<All>"
+    title = "All"
 
-     [[menu.nav]]
+    [[menu.nav]]
     name = "Blog"
     URL = "/blog/"
     weight = 9
+    post = "<All>"
+    title = "All"
 
 # Global Settings
 [params]
 logo = "images/logoex.png"
-
 
 [params.inicio]
 enable = true
@@ -107,7 +124,7 @@ description= "Mis Bonos - Mis Reservas - Mis Datos"
 [params.bonos]
 enable = true
 title = "Bonos  <span>Piscina</span> y <span>Gym</span>"
-description= "Las instalaciones de la piscina estarán abiertas de lunes a domingo en horario de 12:00 a 21:00 h. y las instalaciones del gym de lunes a viernes de 12:00 a 14:00 y de 17:00 a 22:30 h. y los sábados de 12:00 a 14:00"
+description= "Las instalaciones de la piscina estarán abiertas de lunes a domingo en horario de <br><br><br>12:00 a 21:00 h. y las instalaciones del gym de lunes a viernes de 12:00 a 14:00 y de 17:00 a 22:30 h. y los sábados de 12:00 a 14:00"
 subtitle = "Precios"
 
 [[params.bonos.item]]
