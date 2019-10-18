@@ -155,8 +155,8 @@ enable = true
 title= "SUBSCRIBETE a nuestra <span>NEWSLETTER</span>"
 description = "Subscríbete para no perderte nada y estar al día de todo lo que pase en Alburquerque"
 
-#Mailchimp subscription configaration
-formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+#Mailchimp subscription configuration
+formAction = "http://192.168.0.3:3000/emailnewsletter"
 formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
 
