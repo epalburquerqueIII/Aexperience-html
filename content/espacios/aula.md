@@ -5,9 +5,12 @@ image: "images/espacios/cultura.jpg"
 type: "espacios"
 ---
 
-
-**Horario:** De lunes a viernes de 10:00 - 14:00 / 17:00 - 21:00
+<h5><u>**Horarios**</u></h5>
+Lunes a Viernes 10:00 - 14:00 / 17:00 - 21:00 h.
 <br>
-**Dirección:** Avda. de Extremadura s/n 06510 Alburquerque, Badajoz
+*Sábados y Domingos Cerrada
 <br>
-**Teléfono:** 924 40 04 68
+<h5><u>**Dirección**</u></h5> Avda. de Extremadura s/n 06510 Alburquerque, Badajoz
+<br>
+<h5><u>**Teléfono**</u></h5> 924 40 04 68
+<br>
