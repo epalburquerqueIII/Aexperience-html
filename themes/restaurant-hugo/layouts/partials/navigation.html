@@ -21,7 +21,6 @@
                                 <li class="nav-item"><a class="nav-link" href="#inicio"></a></li>
                                 {{ $currentPage := . }}
                                 {{ range $.Site.Menus.nav }}
-                                   <span class="{{ if $currentPage.IsMenuCurrent "blog" .}}active{{end}}"></span>
                                    {{ if (eq .Name "Acceso" ) }}
                                    <!-- <li><a id="login" href="{{ .URL }}">{{ .Name }}</a></li>-->
                                       <li class="nav-item"><a class="nav-link" title="{{ .Post }}" href="#myModal" data-toggle="modal">Acceso</a></li>

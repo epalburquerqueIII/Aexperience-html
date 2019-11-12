@@ -1,0 +1,5 @@
+{{ with .Resources.Match "content/eventos/*" }}
+	{{ range . }}
+		"{{ .RelPermalink }}">
+	{{ end }}
+{{ end }}

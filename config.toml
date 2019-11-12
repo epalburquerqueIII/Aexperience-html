@@ -3,8 +3,6 @@ languageCode = "es"
 title = "AExperience"
 theme= "restaurant-hugo"
 summaryLength = "7"
-
-
 # Menu
 [menu]
 
