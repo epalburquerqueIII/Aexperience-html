@@ -3,10 +3,11 @@ title: "Resumen de la 24 edición del festival Contempopránea"
 date: 2019-03-06T21:49:20+02:00
 description: "This is meta description for blog page"
 type: "post"
-author: "Themefisher"
-image: "images/blog/blog-post-1.jpg"
+author: "Ayuntamiento de Alburquerque"
+image: "images/blog/cpop.jpg"
 ---
 
+<br>
 Alburquerque vuelve a la normalidad tras un largo fin de semana de diversión, convivencia y ambiente en torno al pop 
 independiente. Contempopranea pone fin a su 24ª edición, que comenzó el jueves 18 de julio con la fiesta de bienvenida en la plaza de España en la cual actuaron Delrey, Anxolotes Mexicanos y Satelitrex dj. La fiesta estuvo protagonizada por el pregón del batería de Los Planetas, Eric Jiménez; «me siento muy honrado y agradecido», expresó. El músico dijo que este ha sido un festival en el que se ha desarrollado como artista y ha pasado momentos entrañables; «tiene una magia alucinante«. Eric declaró que «lo mejor del festival es la gente del pueblo» y deseó «paz, amor y larga vida al Contempopranea».
 
@@ -24,4 +25,5 @@ hasta bien entrada la mañana en los locales más emblemáticos para la parroqui
 
 {{< youtube _lzWKC3HJvw >}}
 
-<b>fuente: </b> www.baylio.com <br> extremadura 7 dias <br>  www.contempopranea.com
+<b>Fuente: </b> www.baylio.com <br> extremadura 7 dias <br>  www.contempopranea.com
+<br>

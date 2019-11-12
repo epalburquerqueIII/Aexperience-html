@@ -50,7 +50,7 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Mi perfil"
-    URL = "#miperfil"
+    URL = "http://localhost:8088/login"
     weight = 7
     post = "<All>"
     title = "All"
@@ -71,12 +71,12 @@ summaryLength = "7"
 
 # Global Settings
 [params]
-logo = "images/logoex.png"
+logo = "images/logo.jpg"
 
 [params.inicio]
 enable = true
 [params.heroImg ]
-url =  "images/castillo4.jpg"
+url =  "images/castillo1.jpg"
 
 #Slider
 [params.slider]
@@ -118,7 +118,7 @@ description= "Mis Bonos - Mis Reservas - Mis Datos"
 [params.bonos]
 enable = true
 title = "Bonos <span>Piscina</span> y <span>Gym</span>"
-description= "Las instalaciones de la piscina municipal estarán abiertas en verano de lunes a domingo en horario de 12:00 - 21:00 h. Horario de Verano Gym: Lunes de 18:00 - 22:30 h, Martes a Viernes de 12:00 - 14:00 h / 18:00 - 22:30 h, Sábado de 12:00 - 14:00 h. Horario de Invierno Gym: Lunes de 17:00 - 22:30 h, Martes a Viernes de 12:00 - 14:00 h / 17:00 - 22:00 h, Sábado de 12:00 - 14:00 h."
+description= "Las instalaciones de la piscina municipal estarán abiertas en verano de lunes a domingo en horario de 12:00 - 21:00 h. Y las instalaciones del gym en Horario de Verano: Lunes de 18:00 - 22:30 h, Martes a Viernes de 12:00 - 14:00 h / 18:00 - 22:30 h, Sábado de 12:00 - 14:00 h. Horario de Invierno: Lunes de 17:00 - 22:00 h, Martes a Viernes de 12:00 - 14:00 h / 17:00 - 22:00 h, Sábado de 12:00 - 14:00 h."
 subtitle = "Precios"
 
 [[params.bonos.item]]
@@ -153,15 +153,15 @@ enable = true
 title= "SUBSCRIBETE a nuestra <span>NEWSLETTER</span>"
 description = "Subscríbete para no perderte nada y estar al día de todo lo que pase en Alburquerque"
 
-#Mailchimp subscription configaration
-formAction = "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+#Mailchimp subscription configuration
+formAction = "http://192.168.0.3:3000/emailnewsletter"
 formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
 
 [params.contactos]
 enable = true
 title= "<span>Contacto</span>"
-subtitle= "Escribenos"
+subtitle= "Escríbenos"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
 
 
@@ -187,7 +187,7 @@ socialTitle = "REDES <span>SOCIALES</span>"
 [[params.footer.contactoItem]]
 title="Teléfono"
 icon = "fa fa-mobile"
-content = "924 40 00 00 - 924 40 00 0"
+content = "924 40 00 00 - 924 40 00 01"
 
 [[params.footer.contactoItem]]
 title="Fax"
@@ -207,7 +207,7 @@ content = "webmaster@alburquerque.es"
 # Redes sociales
 [[params.footer.socialLink]]
 icon = "fa fa-facebook"
-link = "https://www.facebook.com/sharer/sharer.php?u=%20http%3A//localhost%3A1313"
+link = "https://www.facebook.com/AgenciaDeDesarrolloLocalDeAlburquerque/"
 
 [[params.footer.socialLink]]
 icon = "fa fa-twitter"
@@ -215,7 +215,7 @@ link = "https://twitter.com/home?status=Est%C3%A1%20usando%20Alburquerque%20Expe
 
 [[params.footer.socialLink]]
 icon = "fa fa-instagram"
-link = "https://www.instagram.com/?hl=es"
+link = "https://twitter.com/BaylioMagazine"
 
 #Footer Copyright Text
 [params.footerCopyright]
