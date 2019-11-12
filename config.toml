@@ -52,7 +52,7 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Mi perfil"
-    URL = "/login"
+    URL = "http://localhost:8088/login"
     weight = 7
     post = "<All>"
     title = "All"
