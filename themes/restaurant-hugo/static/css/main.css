@@ -30,8 +30,8 @@ a.text-dark:hover {
 
 /* Color de fondo de titulo de single */
 .blog-single-page {
-  margin-top: 7px;
-  background: #fbdad9 !important;
+  background: #f1f0f0 !important;
+  text-align: center;
 }
 
 /* Alineacion titulo sidebar */
@@ -183,11 +183,12 @@ p {
 }
 
 .post-title {
-  color:#2E2E2E;
+  color:#2e2e2e;
   font-size: 30px;
   font-weight: 600;
   display: block;
   margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 ul {
@@ -203,7 +204,7 @@ a:active {
   font-size: 25px;
 }
 .section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .d-inline-block{
@@ -317,8 +318,8 @@ nav .block {
   margin-top: -85px;
   background: #fff;
   border-radius: 10px;
-  margin-left: -40px;
-  margin-right: -40px;
+  margin-left: 20px;
+  margin-right: 70px;
   background: rgba(255, 255, 255, 0.959);
 }
 nav .block .navbar-default {
@@ -1016,7 +1017,7 @@ nav.sticky {
 --*/
 #footer-bottom {
   background: #E9E9E9;
-  padding: 0px 0px;
+  padding: 10px 0px 15px 0px;
 }
 #footer-bottom p {
   text-align: center;

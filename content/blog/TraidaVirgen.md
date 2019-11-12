@@ -3,7 +3,7 @@ title: "Alburquerque se entregó a su patrona en la traída desde Carrión"
 date: 2019-08-03T13:39:46+02:00
 description: "This is meta description for blog page"
 type: "post"
-author:
+author: "Ayuntamiento de Alburquerque"
 image: "images/blog/traida-virgen.jpg"
 ---
 
@@ -18,4 +18,5 @@ Tras las palabras del párroco y la alcaldesa se vivió otro de los momentos má
 
 La patrona estará en la iglesia hasta el 1 de septiembre, cuando regresará de nuevo al santuario y podrá visitarse dentro del horario establecido.
 
-Fuente: www.baylio.com
+<b>Fuente: </b> www.baylio.com
+<br>
