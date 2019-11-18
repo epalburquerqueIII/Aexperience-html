@@ -42,30 +42,17 @@ summaryLength = "7"
     title = "All"
 
     [[menu.nav]]
-    name = "Acceso"
-    URL = "#acceso"
-    weight = 6
-    post = "<All>"
-    title = "All"
-
-    [[menu.nav]]
-    name = "Mi perfil"
-    URL = "http://192.168.0.82:8088/login"
+    name = "Blog"
+    URL = "/blog/"
     weight = 7
     post = "<All>"
     title = "All"
-
+    
     [[menu.nav]]
-    name = "Registro"
-    URL = "#registro"
+    name = "Acceso Usuario"
+#    URL = "http://192.168.0.14:8088/login"
+    URL = "http://192.168.0.82:8088/login"
     weight = 8
-    post = "<All>"
-    title = "All"
-
-    [[menu.nav]]
-    name = "Blog"
-    URL = "/blog/"
-    weight = 9
     post = "<All>"
     title = "All"
 
@@ -154,6 +141,7 @@ title= "SUBSCRIBETE a nuestra <span>NEWSLETTER</span>"
 description = "Subscríbete para no perderte nada y estar al día de todo lo que pase en Alburquerque"
 
 #Mailchimp subscription configuration
+#formAction = "http://192.168.0.14:8088/tiponoticias"
 formAction = "http://192.168.0.82:8088/tiponoticias"
 formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
