@@ -3,8 +3,6 @@ languageCode = "es"
 title = "AExperience"
 theme= "restaurant-hugo"
 summaryLength = "7"
-
-
 # Menu
 [menu]
 
@@ -52,7 +50,7 @@ summaryLength = "7"
 
     [[menu.nav]]
     name = "Mi perfil"
-    URL = "/login"
+    URL = "http://192.168.0.82:8088/login"
     weight = 7
     post = "<All>"
     title = "All"
@@ -168,7 +166,7 @@ title= "SUBSCRIBETE a nuestra <span>NEWSLETTER</span>"
 description = "Subscríbete para no perderte nada y estar al día de todo lo que pase en Alburquerque"
 
 #Mailchimp subscription configuration
-formAction = "http://192.168.0.3:3000/emailnewsletter"
+formAction = "http://192.168.0.82:8088/tiponoticias"
 formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
 
