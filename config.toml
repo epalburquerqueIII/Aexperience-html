@@ -104,34 +104,46 @@ description= "Mis Bonos - Mis Reservas - Mis Datos"
 #bonos Menu
 [params.bonos]
 enable = true
-title = "Bonos <span>Piscina</span> y <span>Gym</span>"
+title = "Bonos <span>Piscina</span> y <span>Gimnasio</span>"
 description= "Las instalaciones de la piscina municipal estarán abiertas en verano de lunes a domingo en horario de 12:00 - 21:00 h. Y las instalaciones del gym en Horario de Verano: Lunes de 18:00 - 22:30 h, Martes a Viernes de 12:00 - 14:00 h / 18:00 - 22:30 h, Sábado de 12:00 - 14:00 h. Horario de Invierno: Lunes de 17:00 - 22:00 h, Martes a Viernes de 12:00 - 14:00 h / 17:00 - 22:00 h, Sábado de 12:00 - 14:00 h."
 subtitle = "Precios"
 
 [[params.bonos.item]]
-title="70 entradas"
+title="70 sesiones"
+# Sesiones se usa en la ventana flotante de compra de bonos (para pasar datos a GO)
+sesiones = "70"
 description= ""
-bonos = "50.00 €"
+precio = "50,00 €"
+#Importe se usa en la ventana flotante de compra de bonos (para pasar datos a GO)
+importe = "50"
 
 [[params.bonos.item]]
-title="25 entradas"
+title="25 sesiones"
+sesiones = "25"
 description= ""
-bonos = "25.00 €"
+precio = "25,00 €"
+importe = "25"
 
 [[params.bonos.item]]
-title="10 entradas"
+title="12 sesiones"
+sesiones = "12"
 description= ""
-bonos = "12.00 €"
+precio = "10,00 €"
+importe = "10"
 
 [[params.bonos.item]]
 title="Diaria Adulto"
+sesiones = "1"
 description= ""
-bonos = "3.00 €"
+precio = "3,00 €"
+importe = "3"
 
 [[params.bonos.item]]
 title="Diaria Menores y Pensionistas"
+sesiones = "1"
 description= "Se entiende por menores a las personas que tengan menos de 15 años. Los niños hasta 4 años tendrán entrada gratuita."
-bonos = "1.50 €"
+precio = "1,50 €"
+importe = "1.50"
 
 
 #subscription
