@@ -1,1 +1,1 @@
-..\bin\hugo server --bind=0.0.0.0 --baseURL=http://192.168.0.3:1313
+..\bin\hugo server --bind=0.0.0.0 --baseURL=http://192.168.0.12:1313
