@@ -3,8 +3,6 @@ languageCode = "es"
 title = "AExperience"
 theme= "restaurant-hugo"
 summaryLength = "7"
-
-
 # Menu
 [menu]
 
@@ -44,30 +42,17 @@ summaryLength = "7"
     title = "All"
 
     [[menu.nav]]
-    name = "Acceso"
-    URL = "#acceso"
-    weight = 6
-    post = "<All>"
-    title = "All"
-
-    [[menu.nav]]
-    name = "Mi perfil"
-    URL = "http://localhost:8088/login"
+    name = "Blog"
+    URL = "/blog/"
     weight = 7
     post = "<All>"
     title = "All"
-
+    
     [[menu.nav]]
-    name = "Registro"
-    URL = "#registro"
+    name = "Acceso Usuario"
+#    URL = "http://192.168.0.14:8088/login"
+    URL = "http://192.168.0.82:8088/login"
     weight = 8
-    post = "<All>"
-    title = "All"
-
-    [[menu.nav]]
-    name = "Blog"
-    URL = "/blog/"
-    weight = 9
     post = "<All>"
     title = "All"
 
@@ -119,34 +104,46 @@ description= "Mis Bonos - Mis Reservas - Mis Datos"
 #bonos Menu
 [params.bonos]
 enable = true
-title = "Bonos <span>Piscina</span> y <span>Gym</span>"
+title = "Bonos <span>Piscina</span> y <span>Gimnasio</span>"
 description= "Las instalaciones de la piscina municipal estarán abiertas en verano de lunes a domingo en horario de 12:00 - 21:00 h. Y las instalaciones del gym en Horario de Verano: Lunes de 18:00 - 22:30 h, Martes a Viernes de 12:00 - 14:00 h / 18:00 - 22:30 h, Sábado de 12:00 - 14:00 h. Horario de Invierno: Lunes de 17:00 - 22:00 h, Martes a Viernes de 12:00 - 14:00 h / 17:00 - 22:00 h, Sábado de 12:00 - 14:00 h."
 subtitle = "Precios"
 
 [[params.bonos.item]]
-title="70 entradas"
+title="70 sesiones"
+# Sesiones se usa en la ventana flotante de compra de bonos (para pasar datos a GO)
+sesiones = "70"
 description= ""
-bonos = "50.00 €"
+precio = "50,00 €"
+#Importe se usa en la ventana flotante de compra de bonos (para pasar datos a GO)
+importe = "50"
 
 [[params.bonos.item]]
-title="25 entradas"
+title="25 sesiones"
+sesiones = "25"
 description= ""
-bonos = "25.00 €"
+precio = "25,00 €"
+importe = "25"
 
 [[params.bonos.item]]
-title="10 entradas"
+title="12 sesiones"
+sesiones = "12"
 description= ""
-bonos = "12.00 €"
+precio = "10,00 €"
+importe = "10"
 
 [[params.bonos.item]]
 title="Diaria Adulto"
+sesiones = "1"
 description= ""
-bonos = "3.00 €"
+precio = "3,00 €"
+importe = "3"
 
 [[params.bonos.item]]
 title="Diaria Menores y Pensionistas"
+sesiones = "1"
 description= "Se entiende por menores a las personas que tengan menos de 15 años. Los niños hasta 4 años tendrán entrada gratuita."
-bonos = "1.50 €"
+precio = "1,50 €"
+importe = "1.50"
 
 
 #subscription
@@ -156,7 +153,8 @@ title= "SUBSCRIBETE a nuestra <span>NEWSLETTER</span>"
 description = "Subscríbete para no perderte nada y estar al día de todo lo que pase en Alburquerque"
 
 #Mailchimp subscription configuration
-formAction = "http://192.168.0.3:3000/emailnewsletter"
+#formAction = "http://192.168.0.14:8088/tiponoticias"
+formAction = "http://192.168.0.82:8088/tiponoticias"
 formName = "b_f95ece2732a6e9925f2e70a61_b1e227529e"
 
 
